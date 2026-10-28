@@ -1,0 +1,12 @@
+{
+  "name": "comparateur2-verification",
+  "private": true,
+  "description": "Banc de test jsdom + jQuery des formulaires de lead (outils internes, non déployé)",
+  "scripts": {
+    "test": "node outils/test-formulaires.mjs"
+  },
+  "devDependencies": {
+    "jquery": "3.7.1",
+    "jsdom": "^24.1.0"
+  }
+}

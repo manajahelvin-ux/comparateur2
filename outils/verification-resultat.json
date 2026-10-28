@@ -1,0 +1,836 @@
+{
+ "sites": [
+  {
+   "site": "acces-internet-et-telephonie-pro",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "acces-internet-et-telephonie-pro-v2",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "accueil",
+   "categorie": "PAGE",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "alfaromeo-tonale",
+   "categorie": "PAGE",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "alfaromeo-tonale-remerciement",
+   "categorie": "PAGE",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "assurance-agriculteur",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "assurance-agriculteur-v2",
+   "categorie": "PAGE",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "assurance-assurance-professionnelle-iard-cookie",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "assurance-assurance-professionnelle-iard-v2",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "assurance-commerce",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "assurance-consultant-societe-conseil-v2",
+   "categorie": "PAGE",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "assurance-consultants-societe-conseil",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "assurance-estheticienne-institut-beaute",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "assurance-estheticiennes-institut-beaute",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "assurance-estheticiennes-instituts-beaute",
+   "categorie": "PAGE",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "assurance-estheticiennes-instituts-beaute-v1",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "assurance-iard-v2",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "assurance-marchandise",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "assurance-multirisques",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "assurance-professionnelle-iard",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "assurance-professionnelle-tns-v2",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "assurance-protection-sociale-collective",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "assurance-protection-sociale-collective-v4",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "assurance-rc-pro",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "assurance-test-telephone",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "assurance-tns",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "assurance-tns-pro-v2-adw",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "assurances-multirisques-v2",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "assurances-professionnelles",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "automobile",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "ayvens-france",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "canal",
+   "categorie": "PAGE",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "cartes-carburant",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "celebrez-le-noel-des-salaries-avec-kadeos",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "complementaire-retraite-tns-v2",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "dacia-jogger",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "ecomobility",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "edenred-kadeos",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "edenred-restaurant-v2",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "edenred-ticket-restaurant-juillet-v1",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "edenred-titre-restaurant-v2",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "edenred-typ",
+   "categorie": "PAGE",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "energie",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "energie-v2",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "fiat-pro",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "form-panneaux-photovoltaiques",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "form-vehicules-utilitaires",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "formulaire",
+   "categorie": "PAGE",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "formulaire-globale",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "gamme-de-rayonnage-actiflip-hd",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "gamme-de-rayonnage-actiflip-v4",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "geo",
+   "categorie": "PAGE",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "geolocalisation",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "geolocalisation-de-flotte",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "geolocalisation-v2",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "hyundai-kona-electric-nouvelle-generation",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "hyundai-tucson",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "intuis",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "lexus-lbx",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "lexus-lbx-2",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "mentions-legales",
+   "categorie": "PAGE",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "mercedes-benz-mercedes-benz-evito",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "mercedes-benz-nouvel-ecitan-fourgon",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "mercedes-benz-sprinter",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "mercedes-vous-remercie",
+   "categorie": "PAGE",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "mitsubishi-fuso",
+   "categorie": "PAGE",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "mitsubishi-fuso-remerciement",
+   "categorie": "PAGE",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "nettoyage-locaux-professionnels",
+   "categorie": "PAGE",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "nicolas-ayvens",
+   "categorie": "PAGE",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "nicolas-form-test",
+   "categorie": "PAGE",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "nicolas-formly",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "nissan-ariya",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "nissan-juke",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "panneaux-photovoltaiques-energie-solaire",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "panneaux-photovoltaiques-panneaux-photovoltaique-valider",
+   "categorie": "PAGE",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "paritel",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "paritel-typ",
+   "categorie": "PAGE",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "paritel-vous-rembourse",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "paritel-vous-rembourse-v2",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "politique-de-confidentialite-donnees-personnelles",
+   "categorie": "PAGE",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "primagaz",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "primagaz-obtenez-votre-gaz-propane-a-prix-fixe",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "primagaz-v2",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "radius-remerciement",
+   "categorie": "PAGE",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "radius-telematics-typ",
+   "categorie": "PAGE",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "rc-pro-consultant-conseil-adw",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "remerciement-carte-cadeau",
+   "categorie": "B_MAIL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "remerciement-panneaux-solaire",
+   "categorie": "B_MAIL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "remerciement-ticket-restaurant",
+   "categorie": "B_MAIL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "remerciement-ticket-restaurant-v2",
+   "categorie": "B_MAIL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "remerciements-panneaux-solaires",
+   "categorie": "B_MAIL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "renault-capture",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "sage-gestion-de-la-paie-hd",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "sage-gestion-de-la-paie-hd-v4",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "sauvie-defibrillateurs-en-entreprise",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "securite-pro-v2",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "securite-professionnels",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "site",
+   "categorie": "PAGE",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "solutions-cles",
+   "categorie": "PAGE",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "solutions-industrielles-cles-en-main",
+   "categorie": "PAGE",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "still-manutention",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "suivi-de-vehicules",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "temlpate-webflow-comparateur-2",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "temlpate-webflow-comparateur-3",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "temlpate-webflow-comparateur-4",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "template-2",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "ticket-restaurant",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "ticket-restaurant-",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "ticket-restaurant-septembre",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "ticket-restaurant-septembre-btp",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "ticket-restaurant-v2",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "tns-prevoyance-v2",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "tns-prevoyance-v2-adw-test",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "too-good-to-go",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "toyota-gamme-hybride",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "typ-categ",
+   "categorie": "PAGE",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "typ-categories",
+   "categorie": "PAGE",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "typ-energie",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "typ-formulaires-caisses-thank-you-page",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "typ-formulaires-energie-thank-you-page",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "typ-formulaires-form-typ-vehicules",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "typ-formulaires-panneaux-photovoltaiques",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "typ-formulaires-panneaux-thank-you-page",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "typ-formulaires-securite-thank-you-page",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "typ-formulaires-typ-caisses-enregistreuse",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "typ-formulaires-typ-energie-form",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "typ-formulaires-typ-log-entreprise",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "typ-formulaires-typ-panneaux-form",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "typ-formulaires-typ-secu-form",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "typ-formulaires-vehicules-thank-you-page",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "typ-ticket-restaurant",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "une-rentree-sous-le-signe-du-pouvoir-d-achat",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "vehicules-de-societe-hd",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "vehicules-professionnel-v2",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "voiture-nouveau-range-rover",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "voiture-range-rover",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "volvo",
+   "categorie": "A_TEL",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "site": "webflow-template-1",
+   "categorie": "C_QUALIF",
+   "ok": true,
+   "problems": []
+  }
+ ],
+ "js": {
+  "count": 293,
+  "errors": []
+ }
+}
