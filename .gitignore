@@ -1,0 +1,10 @@
+# Dépendances du banc de test
+node_modules/
+
+# Archives de livraison générées localement (voir outils/creer-zips.sh)
+livrables/
+*.zip
+
+# Divers
+.DS_Store
+*.log

@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+
   <meta charset="utf-8">
+  <!-- Google Tag Manager + Consent Mode v2 par défaut (denied) -->
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('consent','default',{ad_storage:'denied',analytics_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-53SH7D7F');</script>
+  <!-- End Google Tag Manager -->
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Consentement Google : refus par défaut, puis mise à jour depuis les préférences enregistrées. -->
   <!-- End Google Tag Manager -->
@@ -20,8 +27,19 @@
   
   <link rel="stylesheet" href="style.css">
   
+  <style>
+    /* Neutralisation du style de type h1 : ne s'applique qu'aux titres promus,
+       qui héritent alors exactement du rendu de l'élément d'origine. */
+    h1:where(.lp-h1-titre){font-size:inherit;font-weight:inherit;line-height:inherit;margin:0;letter-spacing:inherit;text-transform:inherit;}
+    h2:where(.lp-h1-demoted),div:where(.lp-h1-demoted){font-size:38px;line-height:44px;font-weight:bold;margin-top:20px;margin-bottom:10px;}
+    .lp-visually-hidden{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}
+  </style>
 </head>
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-53SH7D7F" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
 <!-- Google Tag Manager (noscript) -->
 <!-- End Google Tag Manager (noscript) -->
 
@@ -58,7 +76,7 @@
       </div>
 
       <div class="card form-card" id="comparateur">
-        <form id="leadForm" class="multistep" data-api-endpoint="https://mc.hellolead.pro/mon_compte/api/webflow/get_information.php" data-form-id="ADW_LP_ASSURANCE_CONSULTANT" data-sms-endpoint="https://mc.hellolead.pro/mon_compte/api/smspartner/envoi_code_verification.php" data-google-script-url="https://script.google.com/macros/s/AKfycbwrbyCb9-cAmIRPGNvnb-aM-CkhQAerrkfP3_HSw-ewmThxsn4vbZt5daaq2aOnL01a1w/exec" data-api-mode="nocors" data-source="LP ESTHETIQUE" data-scroll-top="true" data-scroll-top-offset="90" novalidate>
+        <form id="leadForm" class="multistep" data-api-endpoint="https://mc.hellolead.pro/mon_compte/api/webflow/get_information.php" data-form-id="ADW_LP_ASSURANCE_CONSULTANT" data-sms-endpoint="https://mc.hellolead.pro/mon_compte/api/smspartner/envoi_code_verification.php" data-google-script-url="https://script.google.com/macros/s/AKfycbwrbyCb9-cAmIRPGNvnb-aM-CkhQAerrkfP3_HSw-ewmThxsn4vbZt5daaq2aOnL01a1w/exec" data-api-mode="nocors" data-source="LP ESTHETIQUE" data-scroll-top="true" data-scroll-top-offset="90" novalidate><div class="w-embed lp-hidden-tracking"><input type="hidden" name="source" value=""><input type="hidden" name="coordonnee" value="1"><input type="hidden" name="user" value=""><input type="hidden" name="gclid" value=""><input type="hidden" name="msclkid" value=""></div>
           <div class="progress" aria-hidden="true"><div class="progress-bar" id="bar"></div></div>
           <p class="step-count" id="stepCount" aria-live="polite">Étape 1 sur 7</p>
 
@@ -465,5 +483,10 @@
 
 
 <script src="script.js" defer></script>
+  <!-- Gestionnaire de lead autonome (standard MEMOIRE-SESSION-CONTINUATION) -->
+  <script>window.LP_CONFIG={"site": "assurance-estheticiennes-institut-beaute", "formId": "ADW_LP_ASSURANCE_ESTHETICIENNES_INSTITUT_BEAUTE", "sourceSecours": "LP ASSURANCE ESTHETICIENNES INSTITUT BEAUTE", "formName": "leadForm", "selectors": ["form[id=\"leadForm\"]"], "version": "1.0.0", "microField": "reponse_3"};</script>
+  <script src="lead-handler.js" defer></script>
+  <script src="verification-sms.js" defer></script>
+
 </body>
 </html>

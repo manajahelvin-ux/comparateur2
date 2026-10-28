@@ -1,0 +1,1244 @@
+[
+ {
+  "site": "acces-internet-et-telephonie-pro",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_ACCES_INTERNET_ET_TELEPHONIE_PRO"
+ },
+ {
+  "site": "acces-internet-et-telephonie-pro-v2",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "accueil",
+  "categorie": "PAGE",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "alfaromeo-tonale",
+  "categorie": "PAGE",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "alfaromeo-tonale-remerciement",
+  "categorie": "PAGE",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "assurance-agriculteur",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_ASSURANCE_AGRICULTEUR"
+ },
+ {
+  "site": "assurance-agriculteur-v2",
+  "categorie": "PAGE",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "assurance-assurance-professionnelle-iard-cookie",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_ASSURANCE_ASSURANCE_PROFESSIONNELLE_IARD_COOKIE"
+ },
+ {
+  "site": "assurance-assurance-professionnelle-iard-v2",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "assurance-commerce",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_ASSURANCE_COMMERCE"
+ },
+ {
+  "site": "assurance-consultant-societe-conseil-v2",
+  "categorie": "PAGE",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "assurance-consultants-societe-conseil",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_ASSURANCE_CONSULTANTS_SOCIETE_CONSEIL"
+ },
+ {
+  "site": "assurance-estheticienne-institut-beaute",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_ASSURANCE_ESTHETICIENNE_INSTITUT_BEAUTE"
+ },
+ {
+  "site": "assurance-estheticiennes-institut-beaute",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_ASSURANCE_ESTHETICIENNES_INSTITUT_BEAUTE"
+ },
+ {
+  "site": "assurance-estheticiennes-instituts-beaute",
+  "categorie": "PAGE",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "assurance-estheticiennes-instituts-beaute-v1",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_ASSURANCE_ESTHETICIENNES_INSTITUTS_BEAUTE_V1"
+ },
+ {
+  "site": "assurance-iard-v2",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_ASSURANCE_IARD_V2"
+ },
+ {
+  "site": "assurance-marchandise",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_ASSURANCE_MARCHANDISE"
+ },
+ {
+  "site": "assurance-multirisques",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_ASSURANCE_MULTIRISQUES"
+ },
+ {
+  "site": "assurance-professionnelle-iard",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_ASSURANCE_PROFESSIONNELLE_IARD"
+ },
+ {
+  "site": "assurance-professionnelle-tns-v2",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_ASSURANCE_PROFESSIONNELLE_TNS_V2"
+ },
+ {
+  "site": "assurance-protection-sociale-collective",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_ASSURANCE_PROTECTION_SOCIALE_COLLECTIVE"
+ },
+ {
+  "site": "assurance-protection-sociale-collective-v4",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "assurance-rc-pro",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_ASSURANCE_RC_PRO"
+ },
+ {
+  "site": "assurance-test-telephone",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_ASSURANCE_TEST_TELEPHONE"
+ },
+ {
+  "site": "assurance-tns",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_ASSURANCE_TNS"
+ },
+ {
+  "site": "assurance-tns-pro-v2-adw",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_ASSURANCE_TNS_PRO_V2_ADW"
+ },
+ {
+  "site": "assurances-multirisques-v2",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "assurances-professionnelles",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_ASSURANCES_PROFESSIONNELLES"
+ },
+ {
+  "site": "automobile",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_AUTOMOBILE"
+ },
+ {
+  "site": "ayvens-france",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_AYVENS_FRANCE"
+ },
+ {
+  "site": "canal",
+  "categorie": "PAGE",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "cartes-carburant",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_CARTES_CARBURANT"
+ },
+ {
+  "site": "celebrez-le-noel-des-salaries-avec-kadeos",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_CELEBREZ_LE_NOEL_DES_SALARIES_AVEC_KADEOS"
+ },
+ {
+  "site": "complementaire-retraite-tns-v2",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_COMPLEMENTAIRE_RETRAITE_TNS_V2"
+ },
+ {
+  "site": "dacia-jogger",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_DACIA_JOGGER"
+ },
+ {
+  "site": "ecomobility",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_ECOMOBILITY"
+ },
+ {
+  "site": "edenred-kadeos",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_EDENRED_KADEOS"
+ },
+ {
+  "site": "edenred-restaurant-v2",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "edenred-ticket-restaurant-juillet-v1",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_EDENRED_TICKET_RESTAURANT_JUILLET_V1"
+ },
+ {
+  "site": "edenred-titre-restaurant-v2",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "edenred-typ",
+  "categorie": "PAGE",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "energie",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_ENERGIE"
+ },
+ {
+  "site": "energie-v2",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "fiat-pro",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_FIAT_PRO"
+ },
+ {
+  "site": "form-panneaux-photovoltaiques",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "form-vehicules-utilitaires",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "formulaire",
+  "categorie": "PAGE",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "formulaire-globale",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_FORMULAIRE_GLOBALE"
+ },
+ {
+  "site": "gamme-de-rayonnage-actiflip-hd",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_GAMME_DE_RAYONNAGE_ACTIFLIP_HD"
+ },
+ {
+  "site": "gamme-de-rayonnage-actiflip-v4",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_GAMME_DE_RAYONNAGE_ACTIFLIP_V4"
+ },
+ {
+  "site": "geo",
+  "categorie": "PAGE",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "geolocalisation",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_GEOLOCALISATION"
+ },
+ {
+  "site": "geolocalisation-de-flotte",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_GEOLOCALISATION_DE_FLOTTE"
+ },
+ {
+  "site": "geolocalisation-v2",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "hyundai-kona-electric-nouvelle-generation",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "hyundai-tucson",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "intuis",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_INTUIS"
+ },
+ {
+  "site": "lexus-lbx",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_LEXUS_LBX"
+ },
+ {
+  "site": "lexus-lbx-2",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_LEXUS_LBX_2"
+ },
+ {
+  "site": "mentions-legales",
+  "categorie": "PAGE",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "mercedes-benz-mercedes-benz-evito",
+  "categorie": "A_TEL",
+  "modifie": true,
+  "actions": [
+   "H1 inséré (visuellement masqué) depuis <title>"
+  ],
+  "formId": "ADW_LP_MERCEDES_BENZ_MERCEDES_BENZ_EVITO"
+ },
+ {
+  "site": "mercedes-benz-nouvel-ecitan-fourgon",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_MERCEDES_BENZ_NOUVEL_ECITAN_FOURGON"
+ },
+ {
+  "site": "mercedes-benz-sprinter",
+  "categorie": "A_TEL",
+  "modifie": true,
+  "actions": [
+   "H1 inséré (visuellement masqué) depuis <title>"
+  ],
+  "formId": "ADW_LP_MERCEDES_BENZ_SPRINTER"
+ },
+ {
+  "site": "mercedes-vous-remercie",
+  "categorie": "PAGE",
+  "modifie": true,
+  "actions": [
+   "Titre du hero converti en H1 (classes conservées, rendu préservé)"
+  ],
+  "formId": null
+ },
+ {
+  "site": "mitsubishi-fuso",
+  "categorie": "PAGE",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "mitsubishi-fuso-remerciement",
+  "categorie": "PAGE",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "nettoyage-locaux-professionnels",
+  "categorie": "PAGE",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "nicolas-ayvens",
+  "categorie": "PAGE",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "nicolas-form-test",
+  "categorie": "PAGE",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "nicolas-formly",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_NICOLAS_FORMLY"
+ },
+ {
+  "site": "nissan-ariya",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_NISSAN_ARIYA"
+ },
+ {
+  "site": "nissan-juke",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_NISSAN_JUKE"
+ },
+ {
+  "site": "panneaux-photovoltaiques-energie-solaire",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_PANNEAUX_PHOTOVOLTAIQUES_ENERGIE_SOLAIRE"
+ },
+ {
+  "site": "panneaux-photovoltaiques-panneaux-photovoltaique-valider",
+  "categorie": "PAGE",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "paritel",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_PARITEL"
+ },
+ {
+  "site": "paritel-typ",
+  "categorie": "PAGE",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "paritel-vous-rembourse",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_PARITEL_VOUS_REMBOURSE"
+ },
+ {
+  "site": "paritel-vous-rembourse-v2",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "politique-de-confidentialite-donnees-personnelles",
+  "categorie": "PAGE",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "primagaz",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_PRIMAGAZ"
+ },
+ {
+  "site": "primagaz-obtenez-votre-gaz-propane-a-prix-fixe",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_PRIMAGAZ_OBTENEZ_VOTRE_GAZ_PROPANE_A_PRIX_FIXE"
+ },
+ {
+  "site": "primagaz-v2",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "radius-remerciement",
+  "categorie": "PAGE",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "radius-telematics-typ",
+  "categorie": "PAGE",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "rc-pro-consultant-conseil-adw",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "remerciement-carte-cadeau",
+  "categorie": "B_MAIL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "remerciement-panneaux-solaire",
+  "categorie": "B_MAIL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "remerciement-ticket-restaurant",
+  "categorie": "B_MAIL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "remerciement-ticket-restaurant-v2",
+  "categorie": "B_MAIL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "remerciements-panneaux-solaires",
+  "categorie": "B_MAIL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "renault-capture",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_RENAULT_CAPTURE"
+ },
+ {
+  "site": "sage-gestion-de-la-paie-hd",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_SAGE_GESTION_DE_LA_PAIE_HD"
+ },
+ {
+  "site": "sage-gestion-de-la-paie-hd-v4",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "sauvie-defibrillateurs-en-entreprise",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_SAUVIE_DEFIBRILLATEURS_EN_ENTREPRISE"
+ },
+ {
+  "site": "securite-pro-v2",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "securite-professionnels",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_SECURITE_PROFESSIONNELS"
+ },
+ {
+  "site": "site",
+  "categorie": "PAGE",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "solutions-cles",
+  "categorie": "PAGE",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "solutions-industrielles-cles-en-main",
+  "categorie": "PAGE",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "still-manutention",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_STILL_MANUTENTION"
+ },
+ {
+  "site": "suivi-de-vehicules",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_SUIVI_DE_VEHICULES"
+ },
+ {
+  "site": "temlpate-webflow-comparateur-2",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_TEMLPATE_WEBFLOW_COMPARATEUR_2"
+ },
+ {
+  "site": "temlpate-webflow-comparateur-3",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "temlpate-webflow-comparateur-4",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "template-2",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "ticket-restaurant",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_TICKET_RESTAURANT"
+ },
+ {
+  "site": "ticket-restaurant-",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_TICKET_RESTAURANT"
+ },
+ {
+  "site": "ticket-restaurant-septembre",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_TICKET_RESTAURANT_SEPTEMBRE"
+ },
+ {
+  "site": "ticket-restaurant-septembre-btp",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_TICKET_RESTAURANT_SEPTEMBRE_BTP"
+ },
+ {
+  "site": "ticket-restaurant-v2",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "tns-prevoyance-v2",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_TNS_PREVOYANCE_V2"
+ },
+ {
+  "site": "tns-prevoyance-v2-adw-test",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_TNS_PREVOYANCE_V2_ADW_TEST"
+ },
+ {
+  "site": "too-good-to-go",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_TOO_GOOD_TO_GO"
+ },
+ {
+  "site": "toyota-gamme-hybride",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_TOYOTA_GAMME_HYBRIDE"
+ },
+ {
+  "site": "typ-categ",
+  "categorie": "PAGE",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "typ-categories",
+  "categorie": "PAGE",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "typ-energie",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "typ-formulaires-caisses-thank-you-page",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "typ-formulaires-energie-thank-you-page",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "typ-formulaires-form-typ-vehicules",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_TYP_FORMULAIRES_FORM_TYP_VEHICULES"
+ },
+ {
+  "site": "typ-formulaires-panneaux-photovoltaiques",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "typ-formulaires-panneaux-thank-you-page",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "typ-formulaires-securite-thank-you-page",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "typ-formulaires-typ-caisses-enregistreuse",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_TYP_FORMULAIRES_TYP_CAISSES_ENREGISTREUSE"
+ },
+ {
+  "site": "typ-formulaires-typ-energie-form",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_TYP_FORMULAIRES_TYP_ENERGIE_FORM"
+ },
+ {
+  "site": "typ-formulaires-typ-log-entreprise",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "typ-formulaires-typ-panneaux-form",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_TYP_FORMULAIRES_TYP_PANNEAUX_FORM"
+ },
+ {
+  "site": "typ-formulaires-typ-secu-form",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_TYP_FORMULAIRES_TYP_SECU_FORM"
+ },
+ {
+  "site": "typ-formulaires-vehicules-thank-you-page",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "typ-ticket-restaurant",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ },
+ {
+  "site": "une-rentree-sous-le-signe-du-pouvoir-d-achat",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_UNE_RENTREE_SOUS_LE_SIGNE_DU_POUVOIR_D_ACHAT"
+ },
+ {
+  "site": "vehicules-de-societe-hd",
+  "categorie": "A_TEL",
+  "modifie": true,
+  "actions": [
+   "Titre du hero converti en H1 (classes conservées, rendu préservé)"
+  ],
+  "formId": "ADW_LP_VEHICULES_DE_SOCIETE_HD"
+ },
+ {
+  "site": "vehicules-professionnel-v2",
+  "categorie": "C_QUALIF",
+  "modifie": true,
+  "actions": [
+   "Titre du hero converti en H1 (classes conservées, rendu préservé)"
+  ],
+  "formId": null
+ },
+ {
+  "site": "voiture-nouveau-range-rover",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_VOITURE_NOUVEAU_RANGE_ROVER"
+ },
+ {
+  "site": "voiture-range-rover",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_VOITURE_RANGE_ROVER"
+ },
+ {
+  "site": "volvo",
+  "categorie": "A_TEL",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": "ADW_LP_VOLVO"
+ },
+ {
+  "site": "webflow-template-1",
+  "categorie": "C_QUALIF",
+  "modifie": false,
+  "actions": [
+   "H1 unique déjà présent"
+  ],
+  "formId": null
+ }
+]

@@ -1,0 +1,8500 @@
+[
+ {
+  "site": "acces-internet-et-telephonie-pro",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Acc-s-internet-form",
+    "name": "wf-form-Acc-s-internet-form",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 40,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "reponse_lib_1_1",
+     "reponse_champ_1_1",
+     "reponse_lib_1_2",
+     "reponse_champ_1_2",
+     "reponse_lib_1_3",
+     "reponse_champ_1_3",
+     "question_2",
+     "question_3",
+     "question_4",
+     "reponse_1_1",
+     "reponse_champ_1_1",
+     "reponse_1_2",
+     "reponse_champ_1_2",
+     "reponse_1_3",
+     "reponse_champ_1_3",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "mail",
+     "societe",
+     "code_postal",
+     "nom",
+     "prenom",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Acc-s-internet-form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 1,
+  "legacy_sms_ui_static": false,
+  "title": "Accès internet et téléphonie pro"
+ },
+ {
+  "site": "acces-internet-et-telephonie-pro-v2",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Acc-s-internet-form-sms",
+    "name": "wf-form-Acc-s-internet-form-sms",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 30,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "user",
+     "question_1",
+     "reponse_lib_1_1",
+     "reponse_champ_1_1",
+     "reponse_lib_1_2",
+     "reponse_champ_1_2",
+     "reponse_lib_1_3",
+     "reponse_champ_1_3",
+     "question_2",
+     "question_3",
+     "reponse_1_1",
+     "reponse_champ_1_1",
+     "reponse_1_2",
+     "reponse_champ_1_2",
+     "reponse_1_3",
+     "reponse_champ_1_3",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Accès internet et téléphonie pro"
+ },
+ {
+  "site": "accueil",
+  "categorie": "PAGE",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "email-form",
+    "name": "email-form",
+    "classes": [],
+    "excluded": true,
+    "n_fields": 3,
+    "names": [
+     "reponse_lib_i_j",
+     "reponse_i_j",
+     "reponse_champ_i_j"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "accueil"
+ },
+ {
+  "site": "alfaromeo-tonale",
+  "categorie": "PAGE",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "email-form",
+    "name": "email-form",
+    "classes": [
+     "form-15"
+    ],
+    "excluded": true,
+    "n_fields": 6,
+    "names": [
+     "Civilit",
+     "prenom",
+     "Nom",
+     "T-l-phone",
+     "Code-postal",
+     "Email"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [
+   "Email"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "tonale"
+ },
+ {
+  "site": "alfaromeo-tonale-remerciement",
+  "categorie": "PAGE",
+  "n_forms": 0,
+  "forms": [],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": false,
+  "w_form_fail": false,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Tonale-remerciement"
+ },
+ {
+  "site": "assurance-agriculteur",
+  "categorie": "A_TEL",
+  "n_forms": 2,
+  "forms": [
+   {
+    "id": "wf-form-assurance-agriculteur-formly",
+    "name": "wf-form-assurance-agriculteur-formly",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 41,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "gclid",
+     "msclkid",
+     "question_1",
+     "reponse_lib_1_1",
+     "reponse_lib_1_2",
+     "reponse_lib_1_3",
+     "reponse_lib_1_4",
+     "reponse_lib_1_5",
+     "question_2",
+     "question_3",
+     "question_4",
+     "question_5",
+     "reponse_1_1",
+     "reponse_1_2",
+     "reponse_1_3",
+     "reponse_1_4",
+     "reponse_1_5",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_4",
+     "mail",
+     "societe",
+     "code_postal",
+     "reponse_5",
+     "reponse_5",
+     "nom",
+     "prenom",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   },
+   {
+    "id": "email-form",
+    "name": "email-form",
+    "classes": [],
+    "excluded": true,
+    "n_fields": 3,
+    "names": [
+     "checkbox",
+     "checkbox",
+     "checkbox"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-assurance-agriculteur-formly"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 1,
+  "legacy_sms_ui_static": false,
+  "title": "Assurance Agriculteur"
+ },
+ {
+  "site": "assurance-agriculteur-v2",
+  "categorie": "PAGE",
+  "n_forms": 0,
+  "forms": [],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": false,
+  "w_form_fail": false,
+  "gtm": [],
+  "lang": "en",
+  "h1": 9,
+  "legacy_sms_ui_static": false,
+  "title": "Assurance agriculteur v2"
+ },
+ {
+  "site": "assurance-assurance-professionnelle-iard-cookie",
+  "categorie": "A_TEL",
+  "n_forms": 2,
+  "forms": [
+   {
+    "id": "wf-form-A-iard-666c16a1cf8ee5882cbb53f0",
+    "name": "wf-form-A-iard-666c16a1cf8ee5882cbb53f0",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 36,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "gclid",
+     "msclkid",
+     "question_1",
+     "reponse_lib_1_1",
+     "reponse_lib_1_2",
+     "reponse_lib_1_3",
+     "reponse_lib_1_4",
+     "question_2",
+     "question_3",
+     "question_4",
+     "reponse_1_1",
+     "reponse_1_2",
+     "reponse_1_3",
+     "reponse_1_4",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "mail",
+     "societe",
+     "code_postal",
+     "reponse_4",
+     "reponse_4",
+     "nom",
+     "prenom",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   },
+   {
+    "id": "email-form",
+    "name": "email-form",
+    "classes": [],
+    "excluded": true,
+    "n_fields": 3,
+    "names": [
+     "checkbox",
+     "checkbox",
+     "checkbox"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-A-iard-666c16a1cf8ee5882cbb53f0"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Assurance professionnelle iard cookie"
+ },
+ {
+  "site": "assurance-assurance-professionnelle-iard-v2",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-assurance-iard-sms-formly",
+    "name": "wf-form-assurance-iard-sms-formly",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 25,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "user",
+     "gclid",
+     "question_1",
+     "question_2",
+     "reponse_lib_1_1",
+     "reponse_lib_1_2",
+     "reponse_lib_1_3",
+     "reponse_champ_1_1",
+     "reponse_lib_1_4",
+     "reponse_1_1",
+     "reponse_1_2",
+     "reponse_1_3",
+     "reponse_champ_1_1",
+     "reponse_1_4",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Assurance Professionnelle IARD"
+ },
+ {
+  "site": "assurance-commerce",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-assurance-commerce-adw",
+    "name": "wf-form-assurance-commerce-adw",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 38,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "gclid",
+     "question_1",
+     "reponse_lib_1_1",
+     "reponse_lib_1_2",
+     "reponse_lib_1_3",
+     "reponse_lib_1_4",
+     "question_2",
+     "question_3",
+     "question_4",
+     "question_5",
+     "reponse_1_1",
+     "reponse_1_2",
+     "reponse_1_3",
+     "reponse_1_4",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_4",
+     "mail",
+     "societe",
+     "code_postal",
+     "reponse_5",
+     "reponse_5",
+     "nom",
+     "prenom",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [
+   "wf-form-assurance-commerce-adw"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Assurance Commerce"
+ },
+ {
+  "site": "assurance-consultant-societe-conseil-v2",
+  "categorie": "PAGE",
+  "n_forms": 0,
+  "forms": [],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": false,
+  "w_form_fail": false,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Assurance consultant et societe de conseil"
+ },
+ {
+  "site": "assurance-consultants-societe-conseil",
+  "categorie": "A_TEL",
+  "n_forms": 2,
+  "forms": [
+   {
+    "id": "wf-form-Assurance-TNS-Pro-Form",
+    "name": "wf-form-Assurance-TNS-Pro-Form",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 55,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "gclid",
+     "question_1",
+     "reponse_lib_1_1",
+     "reponse_lib_1_2",
+     "reponse_lib_1_3",
+     "question_2",
+     "question_3",
+     "question_4",
+     "question_5",
+     "reponse_lib_5_1",
+     "reponse_lib_5_2",
+     "reponse_lib_5_3",
+     "reponse_lib_5_4",
+     "reponse_lib_5_5",
+     "reponse_champ_lib_5_5",
+     "reponse_lib_5_6",
+     "question_7",
+     "question_8",
+     "reponse_1_1",
+     "reponse_1_2",
+     "reponse_1_3",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_5_1",
+     "reponse_5_2",
+     "reponse_5_3",
+     "reponse_5_4",
+     "reponse_5_5",
+     "reponse_champ_5_5",
+     "reponse_5_6",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "mail",
+     "societe",
+     "code_postal",
+     "reponse_8",
+     "reponse_8",
+     "nom",
+     "prenom",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   },
+   {
+    "id": "email-form",
+    "name": "email-form",
+    "classes": [],
+    "excluded": true,
+    "n_fields": 3,
+    "names": [
+     "checkbox",
+     "checkbox",
+     "checkbox"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Assurance-TNS-Pro-Form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Assurance Consultants & Société de Conseil | RC Pro, Multirisque, Santé"
+ },
+ {
+  "site": "assurance-estheticienne-institut-beaute",
+  "categorie": "A_TEL",
+  "n_forms": 2,
+  "forms": [
+   {
+    "id": "wf-form-Assurance-TNS-Pro-Form",
+    "name": "wf-form-Assurance-TNS-Pro-Form",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 55,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "gclid",
+     "question_1",
+     "reponse_lib_1_1",
+     "reponse_lib_1_2",
+     "reponse_lib_1_3",
+     "question_2",
+     "question_3",
+     "question_4",
+     "question_5",
+     "reponse_lib_5_1",
+     "reponse_lib_5_2",
+     "reponse_lib_5_3",
+     "reponse_lib_5_4",
+     "reponse_lib_5_5",
+     "reponse_champ_lib_5_5",
+     "reponse_lib_5_6",
+     "question_7",
+     "question_8",
+     "reponse_1_1",
+     "reponse_1_2",
+     "reponse_1_3",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_5_1",
+     "reponse_5_2",
+     "reponse_5_3",
+     "reponse_5_4",
+     "reponse_5_5",
+     "reponse_champ_5_5",
+     "reponse_5_6",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "mail",
+     "societe",
+     "code_postal",
+     "reponse_8",
+     "reponse_8",
+     "nom",
+     "prenom",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   },
+   {
+    "id": "email-form",
+    "name": "email-form",
+    "classes": [],
+    "excluded": true,
+    "n_fields": 3,
+    "names": [
+     "checkbox",
+     "checkbox",
+     "checkbox"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Assurance-TNS-Pro-Form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Assurance Esthéticienne & Institut de Beauté | RC Pro, Multirisque, Santé — Devis Gratuit"
+ },
+ {
+  "site": "assurance-estheticiennes-institut-beaute",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "leadForm",
+    "name": null,
+    "classes": [
+     "multistep"
+    ],
+    "excluded": false,
+    "n_fields": 68,
+    "names": [
+     "categorie",
+     "autre_info_fj",
+     "question_1",
+     "reponse_1_1",
+     "reponse_lib_1_1",
+     "reponse_1_2",
+     "reponse_lib_1_2",
+     "reponse_1_3",
+     "reponse_lib_1_3",
+     "reponse_1_4",
+     "reponse_lib_1_4",
+     "question_2",
+     "reponse_2_1",
+     "reponse_lib_2_1",
+     "reponse_2_2",
+     "reponse_lib_2_2",
+     "reponse_2_3",
+     "reponse_lib_2_3",
+     "reponse_2_4",
+     "reponse_lib_2_4",
+     "reponse_2_5",
+     "reponse_lib_2_5",
+     "reponse_2_6",
+     "reponse_lib_2_6",
+     "reponse_2_7",
+     "reponse_lib_2_7",
+     "reponse_2_8",
+     "reponse_lib_2_8",
+     "reponse_champ_lib_2_8",
+     "reponse_champ_2_8",
+     "question_5",
+     "reponse_5_1",
+     "reponse_lib_5_1",
+     "reponse_5_2",
+     "reponse_lib_5_2",
+     "reponse_5_3",
+     "reponse_lib_5_3",
+     "question_6",
+     "reponse_6_1",
+     "reponse_lib_6_1",
+     "reponse_6_2",
+     "reponse_lib_6_2",
+     "reponse_6_3",
+     "reponse_lib_6_3",
+     "question_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "question_7",
+     "reponse_7",
+     "reponse_7",
+     "question_3",
+     "reponse_3",
+     "reponse_3",
+     "question_8",
+     "reponse_8",
+     "reponse_8",
+     "prenom",
+     "nom",
+     "mail",
+     "societe",
+     "code_postal",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [
+   "leadForm"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": false,
+  "w_form_fail": false,
+  "gtm": [],
+  "lang": "fr",
+  "h1": 1,
+  "legacy_sms_ui_static": false,
+  "title": "Assurances pro pour esthéticiennes, esthéticiens, coiffeurs et instituts de beauté | Comparateurpro"
+ },
+ {
+  "site": "assurance-estheticiennes-instituts-beaute",
+  "categorie": "PAGE",
+  "n_forms": 0,
+  "forms": [],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": false,
+  "w_form_fail": false,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Assurance Esthéticiennes et instituts de beauté"
+ },
+ {
+  "site": "assurance-estheticiennes-instituts-beaute-v1",
+  "categorie": "A_TEL",
+  "n_forms": 2,
+  "forms": [
+   {
+    "id": "wf-form-Assurance-TNS-Pro-Form",
+    "name": "wf-form-Assurance-TNS-Pro-Form",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 55,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "gclid",
+     "question_1",
+     "reponse_lib_1_1",
+     "reponse_lib_1_2",
+     "reponse_lib_1_3",
+     "question_2",
+     "question_3",
+     "question_4",
+     "question_5",
+     "reponse_lib_5_1",
+     "reponse_lib_5_2",
+     "reponse_lib_5_3",
+     "reponse_lib_5_4",
+     "reponse_lib_5_5",
+     "reponse_champ_lib_5_5",
+     "reponse_lib_5_6",
+     "question_7",
+     "question_8",
+     "reponse_1_1",
+     "reponse_1_2",
+     "reponse_1_3",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_5_1",
+     "reponse_5_2",
+     "reponse_5_3",
+     "reponse_5_4",
+     "reponse_5_5",
+     "reponse_champ_5_5",
+     "reponse_5_6",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "mail",
+     "societe",
+     "code_postal",
+     "reponse_8",
+     "reponse_8",
+     "nom",
+     "prenom",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   },
+   {
+    "id": "email-form",
+    "name": "email-form",
+    "classes": [],
+    "excluded": true,
+    "n_fields": 3,
+    "names": [
+     "checkbox",
+     "checkbox",
+     "checkbox"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Assurance-TNS-Pro-Form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Assurance Esthéticiennes et instituts de beauté V1"
+ },
+ {
+  "site": "assurance-iard-v2",
+  "categorie": "A_TEL",
+  "n_forms": 2,
+  "forms": [
+   {
+    "id": "wf-form-A-iard-666c16a1cf8ee5882cbb53f0",
+    "name": "wf-form-A-iard-666c16a1cf8ee5882cbb53f0",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 35,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "gclid",
+     "msclkid",
+     "question_1",
+     "reponse_lib_1_1",
+     "reponse_lib_1_2",
+     "reponse_lib_1_3",
+     "reponse_lib_1_4",
+     "question_4",
+     "question_3",
+     "reponse_1_1",
+     "reponse_1_2",
+     "reponse_1_3",
+     "reponse_1_4",
+     "reponse_2",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "mail",
+     "societe",
+     "code_postal",
+     "reponse_3",
+     "reponse_3",
+     "nom",
+     "prenom",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   },
+   {
+    "id": "email-form",
+    "name": "email-form",
+    "classes": [],
+    "excluded": true,
+    "n_fields": 3,
+    "names": [
+     "checkbox",
+     "checkbox",
+     "checkbox"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-A-iard-666c16a1cf8ee5882cbb53f0"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 17,
+  "legacy_sms_ui_static": false,
+  "title": "assurance iard v2"
+ },
+ {
+  "site": "assurance-marchandise",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-assurance-marchandise-formly",
+    "name": "wf-form-assurance-marchandise-formly",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 40,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "gclid",
+     "question_1",
+     "reponse_lib_1_1",
+     "reponse_lib_1_2",
+     "reponse_lib_1_3",
+     "reponse_lib_1_4",
+     "reponse_lib_1_4",
+     "question_2",
+     "question_3",
+     "question_4",
+     "question_5",
+     "reponse_1_1",
+     "reponse_1_2",
+     "reponse_1_3",
+     "reponse_1_4",
+     "reponse_1_5",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_4",
+     "mail",
+     "societe",
+     "code_postal",
+     "reponse_5",
+     "reponse_5",
+     "nom",
+     "prenom",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [
+   "wf-form-assurance-marchandise-formly"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Assurance Marchandise"
+ },
+ {
+  "site": "assurance-multirisques",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-assurance-multirisque-adw-formly",
+    "name": "wf-form-assurance-multirisque-adw-formly",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-redirect",
+     "condition-assurance"
+    ],
+    "excluded": false,
+    "n_fields": 39,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "gclid",
+     "msclkid",
+     "question_1",
+     "reponse_lib_1_1",
+     "reponse_lib_1_2",
+     "reponse_lib_1_3",
+     "reponse_lib_1_4",
+     "question_2",
+     "question_3",
+     "question_4",
+     "question_5",
+     "reponse_1_1",
+     "reponse_1_2",
+     "reponse_1_3",
+     "reponse_1_4",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_4",
+     "mail",
+     "societe",
+     "code_postal",
+     "reponse_5",
+     "reponse_5",
+     "nom",
+     "prenom",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [
+   "wf-form-assurance-multirisque-adw-formly"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Assurances Multirisques"
+ },
+ {
+  "site": "assurance-professionnelle-iard",
+  "categorie": "A_TEL",
+  "n_forms": 2,
+  "forms": [
+   {
+    "id": "wf-form-A-iard-666c16a1cf8ee5882cbb53f0",
+    "name": "wf-form-A-iard-666c16a1cf8ee5882cbb53f0",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 35,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "gclid",
+     "msclkid",
+     "question_1",
+     "reponse_lib_1_1",
+     "reponse_lib_1_2",
+     "reponse_lib_1_3",
+     "reponse_lib_1_4",
+     "question_2",
+     "question_3",
+     "reponse_1_1",
+     "reponse_1_2",
+     "reponse_1_3",
+     "reponse_1_4",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "mail",
+     "societe",
+     "code_postal",
+     "reponse_3",
+     "reponse_3",
+     "nom",
+     "prenom",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   },
+   {
+    "id": "email-form",
+    "name": "email-form",
+    "classes": [],
+    "excluded": true,
+    "n_fields": 3,
+    "names": [
+     "checkbox",
+     "checkbox",
+     "checkbox"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-A-iard-666c16a1cf8ee5882cbb53f0"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Assurance Professionnelle Iard"
+ },
+ {
+  "site": "assurance-professionnelle-tns-v2",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Compl-mentaire-retraite-TNS-formly",
+    "name": "wf-form-Compl-mentaire-retraite-TNS-formly",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 61,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "gclid",
+     "question_1",
+     "question_2",
+     "question_3",
+     "question_4",
+     "question_5",
+     "question_6",
+     "question_7",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_lib_5_1",
+     "reponse_lib_5_2",
+     "reponse_lib_5_3",
+     "reponse_lib_5_4",
+     "reponse_lib_5_5",
+     "reponse_champ_5_5",
+     "reponse_lib_5_6",
+     "reponse_5_1",
+     "reponse_5_2",
+     "reponse_5_3",
+     "reponse_5_4",
+     "reponse_5_5",
+     "reponse_champ_5_5",
+     "reponse_5_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "mail",
+     "societe",
+     "code_postal",
+     "reponse_7",
+     "reponse_7",
+     "nom",
+     "prenom",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Compl-mentaire-retraite-TNS-formly"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Assurance Professionnelle TNS V2"
+ },
+ {
+  "site": "assurance-protection-sociale-collective",
+  "categorie": "A_TEL",
+  "n_forms": 2,
+  "forms": [
+   {
+    "id": "wf-form-assurance-collective",
+    "name": "wf-form-assurance-collective",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 55,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "gclid",
+     "msclkid",
+     "question_1",
+     "question_2",
+     "question_3",
+     "reponse_lib_1_1",
+     "reponse_lib_1_2",
+     "reponse_lib_1_3",
+     "reponse_lib_3_1",
+     "reponse_lib_3_2",
+     "reponse_lib_3_3",
+     "reponse_lib_3_4",
+     "reponse_lib_3_5",
+     "reponse_lib_3_6",
+     "reponse_lib_3_7",
+     "reponse_lib_3_8",
+     "reponse_lib_3_9",
+     "reponse_lib_3_10",
+     "reponse_lib_3_11",
+     "reponse_lib_3_12",
+     "reponse_lib_3_13",
+     "reponse_lib_3_14",
+     "reponse_lib_3_15",
+     "reponse_lib_3_16",
+     "reponse_1_1",
+     "reponse_1_2",
+     "reponse_1_3",
+     "reponse_2",
+     "reponse_3_1",
+     "reponse_3_2",
+     "reponse_3_3",
+     "reponse_3_4",
+     "reponse_3_5",
+     "reponse_3_6",
+     "reponse_3_7",
+     "reponse_3_8",
+     "reponse_3_9",
+     "reponse_3_10",
+     "reponse_3_11",
+     "reponse_3_12",
+     "reponse_3_13",
+     "reponse_3_14",
+     "reponse_3_15",
+     "reponse_3_16",
+     "mail",
+     "societe",
+     "code_postal",
+     "nom",
+     "prenom",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   },
+   {
+    "id": "email-form",
+    "name": "email-form",
+    "classes": [],
+    "excluded": true,
+    "n_fields": 3,
+    "names": [
+     "checkbox",
+     "checkbox",
+     "checkbox"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-assurance-collective"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Assurance Protection Sociale Collective"
+ },
+ {
+  "site": "assurance-protection-sociale-collective-v4",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-A1ssurance-Collective-TRA",
+    "name": "wf-form-A1ssurance-Collective-TRA",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 48,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "gclid",
+     "msclkid",
+     "user",
+     "question_1",
+     "question_2",
+     "question_3",
+     "reponse_lib_1_1",
+     "reponse_lib_1_2",
+     "reponse_lib_1_3",
+     "reponse_lib_3_1",
+     "reponse_lib_3_2",
+     "reponse_lib_3_3",
+     "reponse_lib_3_4",
+     "reponse_lib_3_5",
+     "reponse_lib_3_6",
+     "reponse_lib_3_7",
+     "reponse_lib_3_8",
+     "reponse_lib_3_9",
+     "reponse_lib_3_10",
+     "reponse_lib_3_11",
+     "reponse_lib_3_12",
+     "reponse_lib_3_13",
+     "reponse_lib_3_14",
+     "reponse_lib_3_15",
+     "reponse_lib_3_16",
+     "reponse_1_1",
+     "reponse_1_2",
+     "reponse_1_3",
+     "reponse_2",
+     "reponse_3_1",
+     "reponse_3_2",
+     "reponse_3_3",
+     "reponse_3_4",
+     "reponse_3_5",
+     "reponse_3_6",
+     "reponse_3_7",
+     "reponse_3_8",
+     "reponse_3_9",
+     "reponse_3_10",
+     "reponse_3_11",
+     "reponse_3_12",
+     "reponse_3_13",
+     "reponse_3_14",
+     "reponse_3_15",
+     "reponse_3_16"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Assurance Protection Sociale Collective"
+ },
+ {
+  "site": "assurance-rc-pro",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-assurance-rc-pro-formly",
+    "name": "wf-form-assurance-rc-pro-formly",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 41,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "gclid",
+     "msclkid",
+     "question_1",
+     "reponse_lib_1_1",
+     "reponse_lib_1_2",
+     "reponse_lib_1_3",
+     "reponse_lib_1_4",
+     "reponse_lib_1_5",
+     "question_2",
+     "question_3",
+     "question_4",
+     "question_5",
+     "reponse_1_1",
+     "reponse_1_2",
+     "reponse_1_3",
+     "reponse_1_4",
+     "reponse_1_5",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_4",
+     "mail",
+     "societe",
+     "code_postal",
+     "reponse_5",
+     "reponse_5",
+     "nom",
+     "prenom",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [
+   "wf-form-assurance-rc-pro-formly"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Assurance RC Pro"
+ },
+ {
+  "site": "assurance-test-telephone",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-A-iard-666c16a1cf8ee5882cbb53f0",
+    "name": "wf-form-A-iard-666c16a1cf8ee5882cbb53f0",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 42,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "gclid",
+     "msclkid",
+     "question_1",
+     "reponse_lib_1_1",
+     "reponse_lib_1_2",
+     "reponse_lib_1_3",
+     "reponse_lib_1_4",
+     "question_2",
+     "question_3",
+     "question_4",
+     "reponse_1_1",
+     "reponse_1_2",
+     "reponse_1_3",
+     "reponse_1_4",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "mail",
+     "societe",
+     "code_postal",
+     "reponse_4",
+     "reponse_4",
+     "nom",
+     "prenom",
+     "telephone",
+     "consentement",
+     "consentement",
+     "code_1",
+     "code_1",
+     "code_1",
+     "code_1",
+     "code_1",
+     "code_1"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [
+   "wf-form-A-iard-666c16a1cf8ee5882cbb53f0"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": true,
+  "title": "assurance-test-telephone"
+ },
+ {
+  "site": "assurance-tns",
+  "categorie": "A_TEL",
+  "n_forms": 2,
+  "forms": [
+   {
+    "id": "wf-form-Assurance-TNS-Pro-Form",
+    "name": "wf-form-Assurance-TNS-Pro-Form",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 55,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "gclid",
+     "question_1",
+     "reponse_lib_1_1",
+     "reponse_lib_1_2",
+     "reponse_lib_1_3",
+     "question_2",
+     "question_3",
+     "question_4",
+     "question_5",
+     "reponse_lib_5_1",
+     "reponse_lib_5_2",
+     "reponse_lib_5_3",
+     "reponse_lib_5_4",
+     "reponse_lib_5_5",
+     "reponse_champ_lib_5_5",
+     "reponse_lib_5_6",
+     "question_7",
+     "question_8",
+     "reponse_1_1",
+     "reponse_1_2",
+     "reponse_1_3",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_5_1",
+     "reponse_5_2",
+     "reponse_5_3",
+     "reponse_5_4",
+     "reponse_5_5",
+     "reponse_champ_5_5",
+     "reponse_5_6",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "mail",
+     "societe",
+     "code_postal",
+     "reponse_8",
+     "reponse_8",
+     "nom",
+     "prenom",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   },
+   {
+    "id": "email-form",
+    "name": "email-form",
+    "classes": [],
+    "excluded": true,
+    "n_fields": 3,
+    "names": [
+     "checkbox",
+     "checkbox",
+     "checkbox"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Assurance-TNS-Pro-Form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 9,
+  "legacy_sms_ui_static": false,
+  "title": "Assurance TNS"
+ },
+ {
+  "site": "assurance-tns-pro-v2-adw",
+  "categorie": "A_TEL",
+  "n_forms": 2,
+  "forms": [
+   {
+    "id": "wf-form-Assurance-TNS-Pro-Form",
+    "name": "wf-form-Assurance-TNS-Pro-Form",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 55,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "gclid",
+     "question_1",
+     "reponse_lib_1_1",
+     "reponse_lib_1_2",
+     "reponse_lib_1_3",
+     "question_2",
+     "question_3",
+     "question_4",
+     "question_5",
+     "reponse_lib_5_1",
+     "reponse_lib_5_2",
+     "reponse_lib_5_3",
+     "reponse_lib_5_4",
+     "reponse_lib_5_5",
+     "reponse_champ_lib_5_5",
+     "reponse_lib_5_6",
+     "question_7",
+     "question_8",
+     "reponse_1_1",
+     "reponse_1_2",
+     "reponse_1_3",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_5_1",
+     "reponse_5_2",
+     "reponse_5_3",
+     "reponse_5_4",
+     "reponse_5_5",
+     "reponse_champ_5_5",
+     "reponse_5_6",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "mail",
+     "societe",
+     "code_postal",
+     "reponse_8",
+     "reponse_8",
+     "nom",
+     "prenom",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   },
+   {
+    "id": "email-form",
+    "name": "email-form",
+    "classes": [],
+    "excluded": true,
+    "n_fields": 3,
+    "names": [
+     "checkbox",
+     "checkbox",
+     "checkbox"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Assurance-TNS-Pro-Form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Assurance TNS Pro V2 - ADW"
+ },
+ {
+  "site": "assurances-multirisques-v2",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-assurance-multirisque-adw-formly-sms",
+    "name": "wf-form-assurance-multirisque-adw-formly-sms",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 33,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "user",
+     "gclid",
+     "question_1",
+     "question_2",
+     "question_3",
+     "question_4",
+     "reponse_champ_lib_1_3",
+     "reponse_lib_1_1",
+     "reponse_1_1",
+     "reponse_lib_1_2",
+     "reponse_1_2",
+     "reponse_lib_1_3",
+     "reponse_1_3",
+     "reponse_champ_1_3",
+     "reponse_lib_1_4",
+     "reponse_1_4",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_4",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Assurances multirisques"
+ },
+ {
+  "site": "assurances-professionnelles",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Assurance-Form",
+    "name": "wf-form-Assurance-Form",
+    "classes": [
+     "formulaire-etape",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 62,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "reponse_lib_1_1",
+     "reponse_lib_1_2",
+     "reponse_lib_1_3",
+     "reponse_champ_1_3",
+     "reponse_lib_1_4",
+     "reponse_lib_1_5",
+     "reponse_lib_1_6",
+     "reponse_check_lib_1_6_1",
+     "reponse_check_lib_1_6_2",
+     "reponse_check_lib_1_6_3",
+     "reponse_lib_1_7",
+     "reponse_check_lib_1_7_1",
+     "reponse_check_lib_1_7_2",
+     "reponse_check_lib_1_7_3",
+     "reponse_check_lib_1_7_4",
+     "reponse_check_lib_1_7_5",
+     "reponse_1_1",
+     "reponse_1_2",
+     "reponse_1_3",
+     "reponse_champ_1_3",
+     "reponse_1_4",
+     "reponse_1_5",
+     "reponse_1_6",
+     "reponse_check_1_6_1",
+     "reponse_check_1_6_2",
+     "reponse_check_1_6_3",
+     "reponse_1_7",
+     "reponse_check_1_7_1",
+     "reponse_check_1_7_2",
+     "reponse_check_1_7_3",
+     "reponse_check_1_7_4",
+     "reponse_check_1_7_5",
+     "question_2",
+     "reponse_check_lib_2_1",
+     "reponse_2",
+     "question_3",
+     "reponse_lib_3_1",
+     "reponse_lib_3_2",
+     "reponse_lib_3_3",
+     "reponse_lib_3_4",
+     "reponse_lib_3_5",
+     "reponse_lib_3_6",
+     "reponse_lib_3_7",
+     "reponse_3_8",
+     "reponse_3_1",
+     "reponse_3_2",
+     "reponse_3_3",
+     "reponse_3_4",
+     "reponse_3_5",
+     "reponse_3_6",
+     "reponse_3_7",
+     "reponse_lib_3_8",
+     "societe",
+     "code_postal",
+     "nom",
+     "prenom",
+     "mail",
+     "telephone"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Assurance-Form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Assurances professionnelles"
+ },
+ {
+  "site": "automobile",
+  "categorie": "A_TEL",
+  "n_forms": 2,
+  "forms": [
+   {
+    "id": "wf-form-Automobile",
+    "name": "wf-form-Automobile",
+    "classes": [
+     "form-31",
+     "form-ass",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 31,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "msclkid",
+     "gclid",
+     "question_1",
+     "question_2",
+     "question_3",
+     "question_4",
+     "reponse_1",
+     "reponse_1",
+     "societe",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "mail",
+     "societe",
+     "nom",
+     "prenom",
+     "code_postal",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   },
+   {
+    "id": "email-form",
+    "name": "email-form",
+    "classes": [],
+    "excluded": true,
+    "n_fields": 3,
+    "names": [
+     "checkbox",
+     "checkbox",
+     "checkbox"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Automobile"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Automobile"
+ },
+ {
+  "site": "ayvens-france",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Ayvens-Form",
+    "name": "wf-form-Ayvens-Form",
+    "classes": [],
+    "excluded": false,
+    "n_fields": 21,
+    "names": [
+     "question_1",
+     "question_2",
+     "question_3",
+     "question_4",
+     "question_5",
+     "societe",
+     "reponse_1",
+     "reponse_2",
+     "reponse_2",
+     "code_postal",
+     "ville",
+     "reponse_3",
+     "reponse_3",
+     "prenom",
+     "nom",
+     "mail",
+     "telephone",
+     "reponse_4",
+     "reponse_4",
+     "reponse_5",
+     "reponse_5"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Ayvens-Form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Ayvens France"
+ },
+ {
+  "site": "canal",
+  "categorie": "PAGE",
+  "n_forms": 2,
+  "forms": [
+   {
+    "id": "email-form",
+    "name": "email-form",
+    "classes": [
+     "form-20"
+    ],
+    "excluded": true,
+    "n_fields": 2,
+    "names": [
+     "radio",
+     "Radio"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": false
+   },
+   {
+    "id": "email-form-2",
+    "name": "email-form-2",
+    "classes": [],
+    "excluded": true,
+    "n_fields": 6,
+    "names": [
+     "field-3",
+     "field-3",
+     "field-3",
+     "field-3",
+     "field-3",
+     "field-3"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Canal +"
+ },
+ {
+  "site": "cartes-carburant",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-",
+    "name": "wf-form-",
+    "classes": [
+     "form-14",
+     "radius",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 22,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "msclkid",
+     "gclid",
+     "question_1",
+     "question_2",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_2",
+     "reponse_2",
+     "Email",
+     "telephone",
+     "nom-de-la-societe",
+     "code-postal",
+     "pr-nom-2",
+     "nom-3"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "Email"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Cartes Carburant"
+ },
+ {
+  "site": "celebrez-le-noel-des-salaries-avec-kadeos",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-edenred_sous_la-rentree",
+    "name": "wf-form-edenred_sous_la-rentree",
+    "classes": [
+     "form-redirect",
+     "rentree-1"
+    ],
+    "excluded": false,
+    "n_fields": 15,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "mail",
+     "societe",
+     "code_postal",
+     "prenom",
+     "nom",
+     "telephone"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-edenred_sous_la-rentree"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Célébrez le Noël des salariés avec Kadéos !"
+ },
+ {
+  "site": "complementaire-retraite-tns-v2",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Compl-mentaire-retraite-TNS-formly",
+    "name": "wf-form-Compl-mentaire-retraite-TNS-formly",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 55,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "gclid",
+     "question_1",
+     "question_2",
+     "question_3",
+     "question_4",
+     "question_5",
+     "question_6",
+     "question_7",
+     "question_8",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_6",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "mail",
+     "societe",
+     "code_postal",
+     "reponse_8",
+     "reponse_8",
+     "nom",
+     "prenom",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Compl-mentaire-retraite-TNS-formly"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Complémentaire retraite TNS V2"
+ },
+ {
+  "site": "dacia-jogger",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Dacia_jogger_form",
+    "name": "wf-form-Dacia_jogger_form",
+    "classes": [
+     "form-ass",
+     "form-redirect",
+     "dacia-form-2"
+    ],
+    "excluded": false,
+    "n_fields": 10,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "societe",
+     "code_postal",
+     "civilite",
+     "nom",
+     "prenom",
+     "telephone",
+     "mail-2"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Dacia_jogger_form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail-2"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "DACIA JOGGER"
+ },
+ {
+  "site": "ecomobility",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-G-olocalisation-1",
+    "name": "wf-form-G-olocalisation-1",
+    "classes": [
+     "formulaire-etape"
+    ],
+    "excluded": false,
+    "n_fields": 35,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "reponse_lib_1_1",
+     "reponse_champ_lib_1_1",
+     "reponse_1_1",
+     "reponse_champ_1_1",
+     "reponse_lib_1_2",
+     "reponse_champ_lib_1_2",
+     "reponse_1_2",
+     "reponse_champ_1_2",
+     "reponse_lib_1_3",
+     "reponse_champ_lib_1_3",
+     "reponse_1_3",
+     "reponse_champ_1_3",
+     "reponse_lib_1_4",
+     "reponse_champ_lib_1_4",
+     "reponse_1_4",
+     "reponse_champ_1_4",
+     "reponse_lib_1_5",
+     "reponse_champ_lib_1_5",
+     "reponse_1_5",
+     "reponse_champ_1_5",
+     "reponse_lib_1_6",
+     "reponse_champ_lib_1_6",
+     "reponse_1_6",
+     "reponse_champ_1_6",
+     "societe",
+     "code_postal",
+     "civilite",
+     "nom",
+     "prenom",
+     "mail",
+     "telephone"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-G-olocalisation-1"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Ecomobility"
+ },
+ {
+  "site": "edenred-kadeos",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-ticket-kadeos-septembre-form",
+    "name": "wf-form-ticket-kadeos-septembre-form",
+    "classes": [
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 18,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "question_2",
+     "reponse_2",
+     "reponse_2",
+     "mail",
+     "societe",
+     "code_postal",
+     "prenom",
+     "nom",
+     "telephone"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-ticket-kadeos-septembre-form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Kadéos-demande de devis chèque cadeau et carte cadeau employé"
+ },
+ {
+  "site": "edenred-restaurant-v2",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Edenred-sms-v2-Form",
+    "name": "wf-form-Edenred-sms-v2-Form",
+    "classes": [
+     "formulaire-etape"
+    ],
+    "excluded": false,
+    "n_fields": 24,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "user",
+     "question_1",
+     "question_2",
+     "question_3",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Edenred-titre-restaurant"
+ },
+ {
+  "site": "edenred-ticket-restaurant-juillet-v1",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-edenred_formulaire_ticket",
+    "name": "wf-form-edenred_formulaire_ticket",
+    "classes": [],
+    "excluded": false,
+    "n_fields": 18,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "question_2",
+     "reponse_2",
+     "reponse_2",
+     "mail",
+     "societe",
+     "code_postal",
+     "prenom",
+     "nom",
+     "telephone"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-edenred_formulaire_ticket"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Edenred ticket restaurant"
+ },
+ {
+  "site": "edenred-titre-restaurant-v2",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Edenred-sms-v2-Form",
+    "name": "wf-form-Edenred-sms-v2-Form",
+    "classes": [
+     "formulaire-etape"
+    ],
+    "excluded": false,
+    "n_fields": 24,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "user",
+     "question_1",
+     "question_2",
+     "question_3",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Edenred-Titre-Restaurant"
+ },
+ {
+  "site": "edenred-typ",
+  "categorie": "PAGE",
+  "n_forms": 0,
+  "forms": [],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": false,
+  "w_form_fail": false,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "EdenRed"
+ },
+ {
+  "site": "energie",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-energie-form",
+    "name": "wf-form-energie-form",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 39,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "user",
+     "gclid",
+     "question_1",
+     "question_2",
+     "question_3",
+     "question_4",
+     "question_5",
+     "question_6",
+     "question_7",
+     "question_8",
+     "question_9",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_5",
+     "reponse_6",
+     "reponse_7",
+     "reponse_8",
+     "reponse_8",
+     "reponse_8",
+     "reponse_8",
+     "reponse_9",
+     "reponse_9",
+     "mail",
+     "societe",
+     "code_postal",
+     "nom",
+     "prenom",
+     "telephone"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-energie-form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Energie"
+ },
+ {
+  "site": "energie-v2",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-energie-form",
+    "name": "wf-form-energie-form",
+    "classes": [
+     "form-ass",
+     "form-globale"
+    ],
+    "excluded": false,
+    "n_fields": 51,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "user",
+     "question_1",
+     "question_2",
+     "question_3",
+     "question_4",
+     "question_5",
+     "question_6",
+     "question_7",
+     "question_8",
+     "question_9",
+     "question_10",
+     "question_11",
+     "question_12",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_5",
+     "reponse_5",
+     "reponse_6",
+     "reponse_7",
+     "reponse_8",
+     "reponse_9",
+     "reponse_9",
+     "reponse_9",
+     "reponse_9",
+     "reponse_9",
+     "reponse_9",
+     "reponse_10",
+     "reponse_10",
+     "reponse_11",
+     "reponse_11",
+     "reponse_11",
+     "reponse_11",
+     "reponse_11",
+     "reponse_12",
+     "reponse_12",
+     "reponse_12",
+     "reponse_12",
+     "reponse_12",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Energie"
+ },
+ {
+  "site": "fiat-pro",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": null,
+    "name": "wf-form-Fiat-Pro-Form",
+    "classes": [
+     "form-redirect",
+     "fiat-pro-form"
+    ],
+    "excluded": false,
+    "n_fields": 23,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "question_2",
+     "question_3",
+     "reponse_lib_3_1",
+     "reponse_lib_3_2",
+     "reponse_lib_3_3",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "nom",
+     "prenom",
+     "societe",
+     "mail",
+     "telephone",
+     "code_postal",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3_1",
+     "reponse_3_2",
+     "reponse_3_3"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Fiat-Pro-Form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "FIAT Pro"
+ },
+ {
+  "site": "form-panneaux-photovoltaiques",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Panneaux-photovolta-ques-sms",
+    "name": "wf-form-Panneaux-photovolta-ques-sms",
+    "classes": [
+     "form-37",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 22,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "user",
+     "gclid",
+     "question_1",
+     "question_2",
+     "question_3",
+     "question_4",
+     "reponse_1",
+     "reponse_1",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "formulaire-panneaux-photovoltaiques"
+ },
+ {
+  "site": "form-vehicules-utilitaires",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-voiture-professionnel-form-sms",
+    "name": "wf-form-voiture-professionnel-form-sms",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-vehicule",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 24,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "user",
+     "question_1",
+     "question_2",
+     "question_3",
+     "question_4",
+     "reponse_1",
+     "reponse_1",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "formulaire vehicules utilitaires"
+ },
+ {
+  "site": "formulaire",
+  "categorie": "PAGE",
+  "n_forms": 0,
+  "forms": [],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": false,
+  "w_form_fail": false,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Formulaire"
+ },
+ {
+  "site": "formulaire-globale",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": null,
+    "name": "email-form",
+    "classes": [
+     "formulaire-etape"
+    ],
+    "excluded": false,
+    "n_fields": 74,
+    "names": [
+     "question_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "question_1",
+     "reponse_lib_1_1",
+     "reponse_1_1",
+     "reponse_lib_1_2",
+     "reponse_1_2",
+     "reponse_lib_1_3",
+     "reponse_1_3",
+     "reponse_lib_1_4",
+     "reponse_1_4",
+     "reponse_lib_1_5",
+     "reponse_1_5",
+     "question_3",
+     "reponse_lib_1_4",
+     "reponse_1_1",
+     "reponse_check_lib_1_1_1",
+     "reponse_check_1_1_1",
+     "reponse_check_lib_1_1_2",
+     "reponse_check_1_1_2",
+     "reponse_check_lib_1_1_3",
+     "reponse_check_1_1_3",
+     "reponse_lib_1_4",
+     "reponse_1_1",
+     "reponse_check_lib_1_1_1",
+     "reponse_check_1_1_1",
+     "reponse_check_lib_1_1_2",
+     "reponse_check_1_1_2",
+     "reponse_check_lib_1_1_3",
+     "reponse_check_1_1_3",
+     "reponse_lib_1_4",
+     "reponse_1_1",
+     "reponse_check_lib_1_1_1",
+     "reponse_check_1_1_1",
+     "reponse_check_lib_1_1_2",
+     "reponse_check_1_1_2",
+     "reponse_check_lib_1_1_3",
+     "reponse_check_1_1_3",
+     "reponse_lib_1_4",
+     "reponse_1_1",
+     "reponse_check_lib_1_1_1",
+     "reponse_check_1_1_1",
+     "reponse_check_lib_1_1_2",
+     "reponse_check_1_1_2",
+     "reponse_check_lib_1_1_3",
+     "reponse_check_1_1_3",
+     "question_3",
+     "reponse_i",
+     "field-2",
+     "reponse_i",
+     "field-2",
+     "reponse_i",
+     "field-2",
+     "reponse_i",
+     "field-2",
+     "reponse_lib_i_j",
+     "reponse_i_j",
+     "reponse_lib_i_j",
+     "reponse_i_j",
+     "reponse_lib_i_j",
+     "reponse_i_j",
+     "reponse_i",
+     "reponse_i",
+     "question_i",
+     "societe",
+     "code_postal",
+     "question_i",
+     "prenom",
+     "nom",
+     "telephone",
+     "question_i",
+     "mail"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "email-form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Formulaire-globale"
+ },
+ {
+  "site": "gamme-de-rayonnage-actiflip-hd",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-actiflip-formly",
+    "name": "wf-form-actiflip-formly",
+    "classes": [
+     "form-ass",
+     "actiflip-form-2",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 137,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "question_2",
+     "question_3",
+     "question_4",
+     "question_5",
+     "question_6",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_4",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_8",
+     "reponse_8",
+     "reponse_8",
+     "reponse_8",
+     "reponse_8",
+     "reponse_8",
+     "reponse_9",
+     "reponse_9",
+     "reponse_9",
+     "reponse_9",
+     "reponse_10",
+     "reponse_10",
+     "reponse_10",
+     "reponse_10",
+     "reponse_11",
+     "reponse_11",
+     "reponse_11",
+     "reponse_11",
+     "reponse_12",
+     "reponse_12",
+     "reponse_12",
+     "reponse_12",
+     "reponse_12",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "mail",
+     "societe",
+     "code_postal",
+     "nom",
+     "prenom",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [
+   "wf-form-actiflip-formly"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Gamme de rayonnage actiflip hd"
+ },
+ {
+  "site": "gamme-de-rayonnage-actiflip-v4",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-actiflip-formly",
+    "name": "wf-form-actiflip-formly",
+    "classes": [
+     "form-ass",
+     "actiflip-form-2",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 132,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "question_2",
+     "question_3",
+     "question_4",
+     "question_5",
+     "question_6",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_4",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_8",
+     "reponse_8",
+     "reponse_8",
+     "reponse_8",
+     "reponse_8",
+     "reponse_8",
+     "reponse_9",
+     "reponse_9",
+     "reponse_9",
+     "reponse_9",
+     "reponse_10",
+     "reponse_10",
+     "reponse_10",
+     "reponse_10",
+     "reponse_11",
+     "reponse_11",
+     "reponse_11",
+     "reponse_11",
+     "reponse_12",
+     "reponse_12",
+     "reponse_12",
+     "reponse_12",
+     "reponse_12",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [
+   "wf-form-actiflip-formly"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Gamme de rayonnage actiflip"
+ },
+ {
+  "site": "geo",
+  "categorie": "PAGE",
+  "n_forms": 0,
+  "forms": [],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": false,
+  "w_form_fail": false,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "geo"
+ },
+ {
+  "site": "geolocalisation",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-G-olocalisation-1",
+    "name": "wf-form-G-olocalisation-1",
+    "classes": [
+     "formulaire-etape",
+     "form-ass",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 37,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "gclid",
+     "user",
+     "question_1",
+     "reponse_lib_1_1",
+     "reponse_champ_lib_1_1",
+     "reponse_1_1",
+     "reponse_champ_1_1",
+     "reponse_lib_1_2",
+     "reponse_champ_lib_1_2",
+     "reponse_1_2",
+     "reponse_champ_1_2",
+     "reponse_lib_1_3",
+     "reponse_champ_lib_1_3",
+     "reponse_1_3",
+     "reponse_champ_1_3",
+     "reponse_lib_1_4",
+     "reponse_champ_lib_1_4",
+     "reponse_1_4",
+     "reponse_champ_1_4",
+     "reponse_lib_1_5",
+     "reponse_champ_lib_1_5",
+     "reponse_1_5",
+     "reponse_champ_1_5",
+     "reponse_lib_1_6",
+     "reponse_champ_lib_1_6",
+     "reponse_1_6",
+     "reponse_champ_1_6",
+     "societe",
+     "code_postal",
+     "civilite",
+     "nom",
+     "prenom",
+     "mail",
+     "telephone"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-G-olocalisation-1"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Géolocalisation"
+ },
+ {
+  "site": "geolocalisation-de-flotte",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "form-geoloc",
+    "name": "wf-form-G-olocalisation-de-flotte",
+    "classes": [
+     "formulaire-etape"
+    ],
+    "excluded": false,
+    "n_fields": 44,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "question_2",
+     "reponse_lib_2_1",
+     "reponse_lib_2_2",
+     "reponse_lib_2_3",
+     "reponse_lib_2_4",
+     "reponse_lib_1_1",
+     "reponse_champ_lib_1_1",
+     "reponse_1_1",
+     "reponse_champ_1_1",
+     "reponse_lib_1_2",
+     "reponse_champ_lib_1_2",
+     "reponse_1_2",
+     "reponse_champ_1_2",
+     "reponse_lib_1_3",
+     "reponse_champ_lib_1_3",
+     "reponse_1_3",
+     "reponse_champ_1_3",
+     "reponse_lib_1_4",
+     "reponse_champ_lib_1_4",
+     "reponse_1_4",
+     "reponse_champ_1_4",
+     "reponse_lib_1_5",
+     "reponse_champ_lib_1_5",
+     "reponse_1_5",
+     "reponse_champ_1_5",
+     "reponse_lib_1_6",
+     "reponse_champ_lib_1_6",
+     "reponse_1_6",
+     "reponse_champ_1_6",
+     "reponse_2_1",
+     "reponse_2_2",
+     "reponse_2_3",
+     "reponse_2_4",
+     "societe",
+     "code_postal",
+     "civilite",
+     "nom",
+     "prenom",
+     "mail",
+     "telephone"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "form-geoloc"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Géolocalisation de flotte"
+ },
+ {
+  "site": "geolocalisation-v2",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-G-olocalisation-1",
+    "name": "wf-form-G-olocalisation-1",
+    "classes": [
+     "formulaire-etape",
+     "form-ass",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 30,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "gclid",
+     "user",
+     "question_1",
+     "reponse_lib_1_1",
+     "reponse_champ_lib_1_1",
+     "reponse_1_1",
+     "reponse_champ_1_1",
+     "reponse_lib_1_2",
+     "reponse_champ_lib_1_2",
+     "reponse_1_2",
+     "reponse_champ_1_2",
+     "reponse_lib_1_3",
+     "reponse_champ_lib_1_3",
+     "reponse_1_3",
+     "reponse_champ_1_3",
+     "reponse_lib_1_4",
+     "reponse_champ_lib_1_4",
+     "reponse_1_4",
+     "reponse_champ_1_4",
+     "reponse_lib_1_5",
+     "reponse_champ_lib_1_5",
+     "reponse_1_5",
+     "reponse_champ_1_5",
+     "reponse_lib_1_6",
+     "reponse_champ_lib_1_6",
+     "reponse_1_6",
+     "reponse_champ_1_6"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Géolocalisation Marque Blanche v2"
+ },
+ {
+  "site": "hyundai-kona-electric-nouvelle-generation",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Hyundai-Kona-Form",
+    "name": "wf-form-Hyundai-Kona-Form",
+    "classes": [
+     "form-27",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 7,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "user",
+     "question_1",
+     "reponse_1",
+     "checkbox-2"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Hyundai Kona"
+ },
+ {
+  "site": "hyundai-tucson",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Tucson-hybride-Form",
+    "name": "wf-form-Tucson-hybride-Form",
+    "classes": [
+     "form-27",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 7,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "reponse_1",
+     "consentement_1",
+     "consentement_2"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Hyundai Tucson"
+ },
+ {
+  "site": "intuis",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Intuis-Form",
+    "name": "wf-form-Intuis-Form",
+    "classes": [
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 9,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "nom",
+     "prenom",
+     "code_postal",
+     "telephone",
+     "mail",
+     "checkbox"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Intuis-Form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Intuis"
+ },
+ {
+  "site": "lexus-lbx",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Lexus_LBX_septembre",
+    "name": "wf-form-Lexus_LBX_septembre",
+    "classes": [],
+    "excluded": false,
+    "n_fields": 9,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "Civilite",
+     "nom",
+     "prenom",
+     "mail",
+     "telephone",
+     "code_postal"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Lexus_LBX_septembre"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Lexus LBX"
+ },
+ {
+  "site": "lexus-lbx-2",
+  "categorie": "A_TEL",
+  "n_forms": 2,
+  "forms": [
+   {
+    "id": "wf-form-Lexus-LBX-Form",
+    "name": "wf-form-Lexus-LBX-Form",
+    "classes": [
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 6,
+    "names": [
+     "civilite",
+     "prenom",
+     "nom",
+     "telephone",
+     "code_postal",
+     "mail"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   },
+   {
+    "id": "wf-form-Lexus-LBX-Form",
+    "name": "wf-form-Lexus-LBX-Form",
+    "classes": [],
+    "excluded": false,
+    "n_fields": 6,
+    "names": [
+     "civilite",
+     "prenom",
+     "nom",
+     "telephone",
+     "code_postal",
+     "mail"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Lexus-LBX-Form",
+   "wf-form-Lexus-LBX-Form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Lexus LBX"
+ },
+ {
+  "site": "mentions-legales",
+  "categorie": "PAGE",
+  "n_forms": 0,
+  "forms": [],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": false,
+  "w_form_fail": false,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "MENTIONS LÉGALES"
+ },
+ {
+  "site": "mercedes-benz-mercedes-benz-evito",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form--2",
+    "name": "wf-form--2",
+    "classes": [
+     "form-19",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 10,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "reponse_1",
+     "civilite",
+     "prenom",
+     "nom",
+     "mail",
+     "telephone"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form--2"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "eVito"
+ },
+ {
+  "site": "mercedes-benz-nouvel-ecitan-fourgon",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-ecitan-form",
+    "name": "wf-form-ecitan-form",
+    "classes": [
+     "form-16",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 11,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "civilite",
+     "civilite",
+     "nom",
+     "prenom",
+     "societe",
+     "telephone",
+     "mail"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-ecitan-form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Nouvel eCitan fourgon"
+ },
+ {
+  "site": "mercedes-benz-sprinter",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Mercedes-Benz-SPRINTER-Form",
+    "name": "wf-form-Mercedes-Benz-SPRINTER-Form",
+    "classes": [
+     "form-19",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 10,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "reponse_1",
+     "civilite",
+     "prenom",
+     "nom",
+     "mail",
+     "telephone"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Mercedes-Benz-SPRINTER-Form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Sprinter"
+ },
+ {
+  "site": "mercedes-vous-remercie",
+  "categorie": "PAGE",
+  "n_forms": 0,
+  "forms": [],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": false,
+  "w_form_fail": false,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Mercedes"
+ },
+ {
+  "site": "mitsubishi-fuso",
+  "categorie": "PAGE",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "email-form",
+    "name": "email-form",
+    "classes": [
+     "form-redirect"
+    ],
+    "excluded": true,
+    "n_fields": 18,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "societe",
+     "nom",
+     "prenom",
+     "mail",
+     "telephone",
+     "code_postal",
+     "question_1",
+     "reponse_1",
+     "reponse_1",
+     "question_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_4",
+     "reponse_5"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Mitsubishi Fuso"
+ },
+ {
+  "site": "mitsubishi-fuso-remerciement",
+  "categorie": "PAGE",
+  "n_forms": 0,
+  "forms": [],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": false,
+  "w_form_fail": false,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Mitsubishi Fuso-"
+ },
+ {
+  "site": "nettoyage-locaux-professionnels",
+  "categorie": "PAGE",
+  "n_forms": 0,
+  "forms": [],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": false,
+  "w_form_fail": false,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Nettoyage locaux professionnels"
+ },
+ {
+  "site": "nicolas-ayvens",
+  "categorie": "PAGE",
+  "n_forms": 0,
+  "forms": [],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": false,
+  "w_form_fail": false,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "ayvens"
+ },
+ {
+  "site": "nicolas-form-test",
+  "categorie": "PAGE",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "email-form",
+    "name": "email-form",
+    "classes": [],
+    "excluded": true,
+    "n_fields": 8,
+    "names": [
+     "name",
+     "email",
+     "reponse_lib_i_j",
+     "reponse_i_j-2",
+     "reponse_lib_i_j",
+     "reponse_i_j-2",
+     "reponse_lib_i_j",
+     "reponse_i_j-2"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [
+   "email"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Form test"
+ },
+ {
+  "site": "nicolas-formly",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Acc-s-internet-form",
+    "name": "wf-form-Acc-s-internet-form",
+    "classes": [
+     "form-ass",
+     "form-globale"
+    ],
+    "excluded": false,
+    "n_fields": 34,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "question_2",
+     "question_3",
+     "question_4",
+     "question_5",
+     "question_6",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_2",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "mail",
+     "societe",
+     "code_postal",
+     "nom",
+     "prenom",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Acc-s-internet-form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Formly"
+ },
+ {
+  "site": "nissan-ariya",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-gamme-hybride-Form",
+    "name": "wf-form-gamme-hybride-Form",
+    "classes": [],
+    "excluded": false,
+    "n_fields": 10,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "mail",
+     "civilite",
+     "nom",
+     "prenom",
+     "telephone",
+     "code_postal"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-gamme-hybride-Form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Nissan Ariya"
+ },
+ {
+  "site": "nissan-juke",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": null,
+    "name": "email-form",
+    "classes": [
+     "formulaire-etape",
+     "juke"
+    ],
+    "excluded": false,
+    "n_fields": 10,
+    "names": [
+     "question_i",
+     "mail",
+     "question_i",
+     "civilite",
+     "prenom",
+     "nom",
+     "question_i",
+     "telephone",
+     "code_postal",
+     "ville"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "email-form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Nissan Juke"
+ },
+ {
+  "site": "panneaux-photovoltaiques-energie-solaire",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": null,
+    "name": "wf-form-panneaux-passer-a-l-energie",
+    "classes": [
+     "form-30",
+     "form-ass",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 34,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "msclkid",
+     "gclid",
+     "question_1",
+     "question_2",
+     "question_3",
+     "question_4",
+     "question_5",
+     "reponse_1",
+     "reponse_1",
+     "societe",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "mail",
+     "nom",
+     "prenom",
+     "code_postal",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [
+   "wf-form-panneaux-passer-a-l-energie"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "panneaux photovoltaïques-Passez à l'énergie solaire v2"
+ },
+ {
+  "site": "panneaux-photovoltaiques-panneaux-photovoltaique-valider",
+  "categorie": "PAGE",
+  "n_forms": 0,
+  "forms": [],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": false,
+  "w_form_fail": false,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Panneaux photovoltaïque"
+ },
+ {
+  "site": "paritel",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Paritel-form",
+    "name": "wf-form-Paritel-form",
+    "classes": [
+     "form-13",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 23,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "question_2",
+     "reponse_2",
+     "question_3",
+     "reponse_3",
+     "reponse_3",
+     "field-3",
+     "question_4",
+     "reponse_4",
+     "question_5",
+     "reponse_5",
+     "societe",
+     "code_postal",
+     "nom",
+     "prenom",
+     "telephone",
+     "mail"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Paritel-form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Paritel"
+ },
+ {
+  "site": "paritel-typ",
+  "categorie": "PAGE",
+  "n_forms": 0,
+  "forms": [],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": false,
+  "w_form_fail": false,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "TYP Paritel"
+ },
+ {
+  "site": "paritel-vous-rembourse",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Paritel-fibre-form",
+    "name": "wf-form-Paritel-fibre-form",
+    "classes": [
+     "form-13",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 23,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "question_2",
+     "reponse_2",
+     "question_3",
+     "reponse_3",
+     "reponse_3",
+     "field-3",
+     "question_4",
+     "reponse_4",
+     "question_5",
+     "reponse_5",
+     "societe",
+     "code_postal",
+     "nom",
+     "prenom",
+     "telephone",
+     "mail"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Paritel-fibre-form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Fibre - On vous rembourse"
+ },
+ {
+  "site": "paritel-vous-rembourse-v2",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Paritel-fibre-form-sms",
+    "name": "wf-form-Paritel-fibre-form-sms",
+    "classes": [
+     "form-13",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 20,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "user",
+     "question_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "question_2",
+     "reponse_2",
+     "question_3",
+     "reponse_3",
+     "reponse_3",
+     "field-3",
+     "question_4",
+     "reponse_4",
+     "question_5",
+     "reponse_5",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Paritel Vous Rembourse"
+ },
+ {
+  "site": "politique-de-confidentialite-donnees-personnelles",
+  "categorie": "PAGE",
+  "n_forms": 0,
+  "forms": [],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": false,
+  "w_form_fail": false,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "POLITIQUE DE CONFIDENTIALITÉ - DONNÉES PERSONNELLES"
+ },
+ {
+  "site": "primagaz",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-primagaz-propane-form",
+    "name": "wf-form-primagaz-propane-form",
+    "classes": [
+     "form-26",
+     "primagaz-form",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 12,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "reponse_1",
+     "reponse_1",
+     "nom",
+     "prenom",
+     "telephone",
+     "email",
+     "societe",
+     "code_postal"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-primagaz-propane-form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "email"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Primagaz"
+ },
+ {
+  "site": "primagaz-obtenez-votre-gaz-propane-a-prix-fixe",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Primagaz-Form",
+    "name": "wf-form-Primagaz-Form",
+    "classes": [
+     "formulaire-etape",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 12,
+    "names": [
+     "question_1",
+     "reponse_champ_1",
+     "question_i",
+     "mail",
+     "question_i",
+     "societe",
+     "code_postal",
+     "question_i",
+     "prenom",
+     "nom",
+     "question_i",
+     "telephone"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Primagaz-Form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Primagaz obtenez votre gaz propane a prix fixe"
+ },
+ {
+  "site": "primagaz-v2",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Primagaz-sms-Form",
+    "name": "wf-form-Primagaz-sms-Form",
+    "classes": [
+     "formulaire-etape",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 8,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "user",
+     "question_1",
+     "question_2",
+     "reponse_1",
+     "reponse_2"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Primagaz"
+ },
+ {
+  "site": "radius-remerciement",
+  "categorie": "PAGE",
+  "n_forms": 0,
+  "forms": [],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": false,
+  "w_form_fail": false,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Radius Remerciement"
+ },
+ {
+  "site": "radius-telematics-typ",
+  "categorie": "PAGE",
+  "n_forms": 0,
+  "forms": [],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": false,
+  "w_form_fail": false,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Radius Telematics"
+ },
+ {
+  "site": "rc-pro-consultant-conseil-adw",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "f-lead",
+    "name": null,
+    "classes": [],
+    "excluded": false,
+    "n_fields": 7,
+    "names": [
+     "g",
+     "g",
+     "g",
+     "g",
+     "g",
+     "st",
+     "st"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": false,
+  "w_form_fail": false,
+  "gtm": [],
+  "lang": "en",
+  "h1": 1,
+  "legacy_sms_ui_static": false,
+  "title": "RC Pro & Multirisque Consultant — Devis Gratuit | ComparateurPro"
+ },
+ {
+  "site": "remerciement-carte-cadeau",
+  "categorie": "B_MAIL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-edenred_formulaire_ticket",
+    "name": "wf-form-edenred_formulaire_ticket",
+    "classes": [
+     "form-28"
+    ],
+    "excluded": false,
+    "n_fields": 23,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "gclid",
+     "nom",
+     "prenom",
+     "mail",
+     "code_postal",
+     "societe",
+     "telephone",
+     "civilite",
+     "ville",
+     "question_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "question_2",
+     "reponse_2",
+     "reponse_2"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": true,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-edenred_formulaire_ticket"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Carte Cadeau"
+ },
+ {
+  "site": "remerciement-panneaux-solaire",
+  "categorie": "B_MAIL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-solaire-form-typ",
+    "name": "wf-form-solaire-form-typ",
+    "classes": [
+     "form-ass",
+     "form-globale"
+    ],
+    "excluded": false,
+    "n_fields": 22,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "gclid",
+     "nom",
+     "prenom",
+     "mail",
+     "code_postal",
+     "societe",
+     "telephone",
+     "civilite",
+     "ville",
+     "question_1",
+     "question_2",
+     "question_3",
+     "reponse_1",
+     "reponse_1",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": true,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-solaire-form-typ"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Solaire"
+ },
+ {
+  "site": "remerciement-ticket-restaurant",
+  "categorie": "B_MAIL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-titres-restaurant-form-typ",
+    "name": "wf-form-titres-restaurant-form-typ",
+    "classes": [
+     "form-28"
+    ],
+    "excluded": false,
+    "n_fields": 21,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "gclid",
+     "nom",
+     "prenom",
+     "mail",
+     "code_postal",
+     "societe",
+     "telephone",
+     "civilite",
+     "ville",
+     "question_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "question_2",
+     "reponse_2",
+     "reponse_2"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": true,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-titres-restaurant-form-typ"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Ticket Restaurant"
+ },
+ {
+  "site": "remerciement-ticket-restaurant-v2",
+  "categorie": "B_MAIL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-TR_form_typ",
+    "name": "wf-form-TR_form_typ",
+    "classes": [
+     "form-28"
+    ],
+    "excluded": false,
+    "n_fields": 23,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "gclid",
+     "nom",
+     "prenom",
+     "mail",
+     "code_postal",
+     "societe",
+     "telephone",
+     "civilite",
+     "ville",
+     "question_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "question_2",
+     "reponse_2",
+     "reponse_2"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": true,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-TR_form_typ"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Ticket Restaurant"
+ },
+ {
+  "site": "remerciements-panneaux-solaires",
+  "categorie": "B_MAIL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-solaire-form-typ-comparateur",
+    "name": "wf-form-solaire-form-typ-comparateur",
+    "classes": [
+     "form-ass",
+     "form-globale"
+    ],
+    "excluded": false,
+    "n_fields": 22,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "gclid",
+     "nom",
+     "prenom",
+     "mail",
+     "code_postal",
+     "societe",
+     "telephone",
+     "civilite",
+     "ville",
+     "question_1",
+     "question_2",
+     "question_3",
+     "reponse_1",
+     "reponse_1",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": true,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-solaire-form-typ-comparateur"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Panneaux Photovoltaîques"
+ },
+ {
+  "site": "renault-capture",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Dacia_jogger_form",
+    "name": "wf-form-Dacia_jogger_form",
+    "classes": [
+     "form-ass",
+     "form-redirect",
+     "dacia-form-2"
+    ],
+    "excluded": false,
+    "n_fields": 10,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "societe",
+     "code_postal",
+     "civilite",
+     "nom",
+     "prenom",
+     "telephone",
+     "mail-2"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Dacia_jogger_form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail-2"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Renault Capture"
+ },
+ {
+  "site": "sage-gestion-de-la-paie-hd",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Sage-Form",
+    "name": "wf-form-Sage-Form",
+    "classes": [
+     "form-23",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 6,
+    "names": [
+     "mail",
+     "prenom",
+     "nom",
+     "telephone",
+     "societe",
+     "checkbox"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Sage-Form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Sage gestion de la paie hd"
+ },
+ {
+  "site": "sage-gestion-de-la-paie-hd-v4",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Sage-Form-TRA",
+    "name": "wf-form-Sage-Form-TRA",
+    "classes": [
+     "form-23",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 7,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "user",
+     "question_1",
+     "reponse_1",
+     "checkbox"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Sage gestion de la paie hd"
+ },
+ {
+  "site": "sauvie-defibrillateurs-en-entreprise",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Sauvie-Form",
+    "name": "wf-form-Sauvie-Form",
+    "classes": [
+     "form-24",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 10,
+    "names": [
+     "champ-3",
+     "champ-2",
+     "champ-2",
+     "nom",
+     "prenom",
+     "ville",
+     "societe",
+     "telephone",
+     "mail",
+     "checkbox-2"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Sauvie-Form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Sauvie defibrillateurs en entreprise"
+ },
+ {
+  "site": "securite-pro-v2",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Securite_SMS_Form",
+    "name": "wf-form-Securite_SMS_Form",
+    "classes": [
+     "formulaire-etape",
+     "securit"
+    ],
+    "excluded": false,
+    "n_fields": 39,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "user",
+     "question_1",
+     "reponse_lib_1_1",
+     "reponse_lib_1_2",
+     "reponse_lib_1_3",
+     "question_2",
+     "question_3",
+     "question_4",
+     "question_5",
+     "question_6",
+     "reponse_1_1",
+     "reponse_1_2",
+     "reponse_1_3",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_2",
+     "reponse_5",
+     "reponse_6",
+     "reponse_6",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Securite pro"
+ },
+ {
+  "site": "securite-professionnels",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Securite_Form_ubepro",
+    "name": "wf-form-Securite_Form_ubepro",
+    "classes": [
+     "formulaire-etape",
+     "form-security-1",
+     "form-redirect",
+     "form-ass"
+    ],
+    "excluded": false,
+    "n_fields": 28,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "msclkid",
+     "gclid",
+     "question_1",
+     "reponse_lib_1_1",
+     "reponse_lib_1_2",
+     "reponse_lib_1_3",
+     "reponse_lib_1_4",
+     "question_2",
+     "reponse_1_1",
+     "reponse_1_2",
+     "reponse_1_4",
+     "reponse_1_3",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "question_i",
+     "mail",
+     "question_i",
+     "societe",
+     "code_postal",
+     "question_i",
+     "prenom",
+     "nom",
+     "question_i",
+     "telephone"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Securite_Form_ubepro"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Sécurité Professionnelles"
+ },
+ {
+  "site": "site",
+  "categorie": "PAGE",
+  "n_forms": 0,
+  "forms": [],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": false,
+  "w_form_fail": false,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Comparateurpro"
+ },
+ {
+  "site": "solutions-cles",
+  "categorie": "PAGE",
+  "n_forms": 0,
+  "forms": [],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": false,
+  "w_form_fail": false,
+  "gtm": [],
+  "lang": "en",
+  "h1": 4,
+  "legacy_sms_ui_static": false,
+  "title": "Solutions clés"
+ },
+ {
+  "site": "solutions-industrielles-cles-en-main",
+  "categorie": "PAGE",
+  "n_forms": 0,
+  "forms": [],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": false,
+  "w_form_fail": false,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Solutions Industrielles Clés en Main"
+ },
+ {
+  "site": "still-manutention",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Still-Manutention-Form",
+    "name": "wf-form-Still-Manutention-Form",
+    "classes": [
+     "formulaire-etape",
+     "still",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 18,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "question_2",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "mail",
+     "societe",
+     "code_postal",
+     "prenom",
+     "nom",
+     "telephone"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Still-Manutention-Form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Still manutention"
+ },
+ {
+  "site": "suivi-de-vehicules",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": null,
+    "name": "wf-form-Radius-G-oloc",
+    "classes": [
+     "formulaire-etape"
+    ],
+    "excluded": false,
+    "n_fields": 35,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "reponse_lib_1_1",
+     "reponse_champ_lib_1_1",
+     "reponse_1_1",
+     "reponse_champ_1_1",
+     "reponse_lib_1_2",
+     "reponse_champ_lib_1_2",
+     "reponse_1_2",
+     "reponse_champ_1_2",
+     "reponse_lib_1_3",
+     "reponse_champ_lib_1_3",
+     "reponse_1_3",
+     "reponse_champ_1_3",
+     "reponse_lib_1_4",
+     "reponse_champ_lib_1_4",
+     "reponse_1_4",
+     "reponse_champ_1_4",
+     "reponse_lib_1_5",
+     "reponse_champ_lib_1_5",
+     "reponse_1_5",
+     "reponse_champ_1_5",
+     "reponse_lib_1_6",
+     "reponse_champ_lib_1_6",
+     "reponse_1_6",
+     "reponse_champ_1_6",
+     "societe",
+     "code_postal",
+     "civilite",
+     "nom",
+     "prenom",
+     "mail",
+     "telephone"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Radius-G-oloc"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Suivi de véhicules"
+ },
+ {
+  "site": "temlpate-webflow-comparateur-2",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": null,
+    "name": "email-form",
+    "classes": [
+     "formulaire-etape"
+    ],
+    "excluded": false,
+    "n_fields": 35,
+    "names": [
+     "question_1",
+     "reponse_lib_1_1",
+     "reponse_1_1",
+     "reponse_lib_1_2",
+     "reponse_1_2",
+     "reponse_lib_1_3",
+     "reponse_1_3",
+     "reponse_lib_1_4",
+     "reponse_1_4",
+     "reponse_lib_1_5",
+     "reponse_1_5",
+     "question_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "question_3",
+     "reponse_lib_3_1",
+     "reponse_1_1",
+     "reponse_lib_3_2",
+     "reponse_1_2",
+     "reponse_lib_3_3",
+     "reponse_1_3",
+     "reponse_lib_3_4",
+     "reponse_1_4",
+     "reponse_lib_3_5",
+     "reponse_1_5",
+     "question_i",
+     "societe",
+     "code_postal",
+     "question_i",
+     "prenom",
+     "nom",
+     "telephone",
+     "question_i",
+     "mail"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "email-form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "comparateur-2"
+ },
+ {
+  "site": "temlpate-webflow-comparateur-3",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Template_3_Form",
+    "name": "wf-form-Template_3_Form",
+    "classes": [
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 4,
+    "names": [
+     "name",
+     "email",
+     "plain",
+     "field"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [
+   "email"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Comparateur-3"
+ },
+ {
+  "site": "temlpate-webflow-comparateur-4",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Template_3_Form",
+    "name": "wf-form-Template_3_Form",
+    "classes": [],
+    "excluded": false,
+    "n_fields": 4,
+    "names": [
+     "name-2",
+     "email-2",
+     "plain-2",
+     "field-2"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Comparateur-4"
+ },
+ {
+  "site": "template-2",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": null,
+    "name": "email-form",
+    "classes": [
+     "formulaire-etape",
+     "template-2"
+    ],
+    "excluded": false,
+    "n_fields": 13,
+    "names": [
+     "question_1",
+     "reponse_lib_1_1",
+     "reponse_1_1",
+     "reponse_champ_1_1",
+     "reponse_lib_1_2",
+     "reponse_1_2",
+     "reponse_champ_1_2",
+     "reponse_lib_1_3",
+     "reponse_1_3",
+     "reponse_champ_1_3",
+     "reponse_lib_1_4",
+     "reponse_1_4",
+     "reponse_champ_1_4"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 1,
+  "legacy_sms_ui_static": false,
+  "title": "Template 2"
+ },
+ {
+  "site": "ticket-restaurant",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-edenred_formulaire_ticket",
+    "name": "wf-form-edenred_formulaire_ticket",
+    "classes": [
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 18,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "question_2",
+     "reponse_2",
+     "reponse_2",
+     "mail",
+     "societe",
+     "code_postal",
+     "prenom",
+     "nom",
+     "telephone"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-edenred_formulaire_ticket"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "ticket-restaurant"
+ },
+ {
+  "site": "ticket-restaurant-",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-edenred_formulaire_ticket",
+    "name": "wf-form-edenred_formulaire_ticket",
+    "classes": [],
+    "excluded": false,
+    "n_fields": 18,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "question_2",
+     "reponse_2",
+     "reponse_2",
+     "mail",
+     "societe",
+     "code_postal",
+     "prenom",
+     "nom",
+     "telephone"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-edenred_formulaire_ticket"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Devis carte Ticket Restaurant gratuit et sans engagement"
+ },
+ {
+  "site": "ticket-restaurant-septembre",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-edenred_formulaire_ticket",
+    "name": "wf-form-edenred_formulaire_ticket",
+    "classes": [
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 18,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "question_2",
+     "reponse_2",
+     "reponse_2",
+     "mail",
+     "societe",
+     "code_postal",
+     "prenom",
+     "nom",
+     "telephone"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-edenred_formulaire_ticket"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Devis Carte Ticket Restaurant gratuit et sans engagement"
+ },
+ {
+  "site": "ticket-restaurant-septembre-btp",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-edenred_formulaire_ticket-btp",
+    "name": "wf-form-edenred_formulaire_ticket-btp",
+    "classes": [
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 18,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "question_2",
+     "reponse_2",
+     "reponse_2",
+     "mail",
+     "societe",
+     "code_postal",
+     "prenom",
+     "nom",
+     "telephone"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-edenred_formulaire_ticket-btp"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Ticket-Restaurant-BTP"
+ },
+ {
+  "site": "ticket-restaurant-v2",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-edenred_formulaire_ticket-sms",
+    "name": "wf-form-edenred_formulaire_ticket-sms",
+    "classes": [
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 13,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "user",
+     "question_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "question_2",
+     "reponse_2",
+     "reponse_2"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Ticket-restaurant"
+ },
+ {
+  "site": "tns-prevoyance-v2",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Compl-mentaire-retraite-TNS-formly",
+    "name": "wf-form-Compl-mentaire-retraite-TNS-formly",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 79,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "gclid",
+     "question_1",
+     "question_2",
+     "question_3",
+     "question_4",
+     "question_5",
+     "question_6",
+     "reponse_lib_1_1",
+     "reponse_lib_1_2",
+     "reponse_lib_1_3",
+     "reponse_lib_3_1",
+     "reponse_lib_3_2",
+     "reponse_lib_3_3",
+     "reponse_lib_3_4",
+     "reponse_lib_3_5",
+     "reponse_lib_3_6",
+     "reponse_lib_3_7",
+     "reponse_lib_3_8",
+     "reponse_lib_3_9",
+     "reponse_lib_3_10",
+     "reponse_lib_3_11",
+     "reponse_lib_3_12",
+     "reponse_lib_3_13",
+     "reponse_lib_3_14",
+     "reponse_lib_3_15",
+     "reponse_lib_3_16",
+     "reponse_1_1",
+     "reponse_1_2",
+     "reponse_1_3",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_lib_5_1",
+     "reponse_lib_5_2",
+     "reponse_lib_5_3",
+     "reponse_lib_5_4",
+     "reponse_lib_5_5",
+     "reponse_champ_5_5",
+     "reponse_lib_5_6",
+     "reponse_5_1",
+     "reponse_5_2",
+     "reponse_5_3",
+     "reponse_champ_5_5",
+     "reponse_5_5",
+     "reponse_champ_5_5",
+     "reponse_5_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "reponse_6",
+     "mail",
+     "societe",
+     "code_postal",
+     "reponse_7",
+     "reponse_7",
+     "nom",
+     "prenom",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Compl-mentaire-retraite-TNS-formly"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "TNS Prévoyance V2"
+ },
+ {
+  "site": "tns-prevoyance-v2-adw-test",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Compl-mentaire-retraite-TNS-formly-test",
+    "name": "wf-form-Compl-mentaire-retraite-TNS-formly-test",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 61,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "gclid",
+     "question_1",
+     "question_2",
+     "question_3",
+     "question_4",
+     "question_5",
+     "question_7",
+     "question_8",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_lib_5_1",
+     "reponse_lib_5_2",
+     "reponse_lib_5_3",
+     "reponse_lib_5_4",
+     "reponse_lib_5_5",
+     "reponse_champ_5_5",
+     "reponse_lib_5_6",
+     "reponse_5_1",
+     "reponse_5_2",
+     "reponse_5_3",
+     "reponse_5_4",
+     "reponse_5_5",
+     "reponse_champ_5_5",
+     "reponse_5_6",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "reponse_7",
+     "mail",
+     "societe",
+     "code_postal",
+     "reponse_8",
+     "reponse_8",
+     "nom",
+     "prenom",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Compl-mentaire-retraite-TNS-formly-test"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "tns prevoyance-v2-adw test"
+ },
+ {
+  "site": "too-good-to-go",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-too-good-to-go-Form",
+    "name": "wf-form-too-good-to-go-Form",
+    "classes": [
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 7,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "societe",
+     "mail",
+     "telephone",
+     "ville"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-too-good-to-go-Form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Too good to go"
+ },
+ {
+  "site": "toyota-gamme-hybride",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-gamme-hybride-Form",
+    "name": "wf-form-gamme-hybride-Form",
+    "classes": [],
+    "excluded": false,
+    "n_fields": 11,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "reponse_1",
+     "civilite-5",
+     "mail",
+     "nom-2",
+     "prenom",
+     "telephone",
+     "code_postal"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-gamme-hybride-Form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Toyota Gamme Hybride"
+ },
+ {
+  "site": "typ-categ",
+  "categorie": "PAGE",
+  "n_forms": 0,
+  "forms": [],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": false,
+  "w_form_fail": false,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "TYP Categ"
+ },
+ {
+  "site": "typ-categories",
+  "categorie": "PAGE",
+  "n_forms": 0,
+  "forms": [],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": false,
+  "w_form_fail": false,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "TYP Catégories"
+ },
+ {
+  "site": "typ-energie",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Still-Manutention-Form",
+    "name": "wf-form-Still-Manutention-Form",
+    "classes": [
+     "formulaire-etape",
+     "still"
+    ],
+    "excluded": false,
+    "n_fields": 9,
+    "names": [
+     "question_1",
+     "reponse_i",
+     "reponse_i",
+     "reponse_i",
+     "question_1",
+     "reponse_i",
+     "reponse_i",
+     "reponse_i",
+     "reponse_i"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "énergie"
+ },
+ {
+  "site": "typ-formulaires-caisses-thank-you-page",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Caisse-Form",
+    "name": "wf-form-Caisse-Form",
+    "classes": [
+     "form-35",
+     "form-redirect",
+     "width-caisse"
+    ],
+    "excluded": false,
+    "n_fields": 30,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "question_2",
+     "question_3",
+     "question_4",
+     "question_5",
+     "reponse_1",
+     "reponse_1",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "question_i",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "caisses-thank-you-page"
+ },
+ {
+  "site": "typ-formulaires-energie-thank-you-page",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-energie-form",
+    "name": "wf-form-energie-form",
+    "classes": [
+     "form-33",
+     "form-globale",
+     "form-redirect",
+     "width-energie"
+    ],
+    "excluded": false,
+    "n_fields": 35,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "user",
+     "gclid",
+     "question_1",
+     "question_2",
+     "question_3",
+     "question_4",
+     "question_5",
+     "question_6",
+     "question_7",
+     "question_8",
+     "question_9",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_5",
+     "reponse_6",
+     "reponse_7",
+     "reponse_8",
+     "reponse_8",
+     "reponse_8",
+     "reponse_8",
+     "reponse_9",
+     "reponse_9",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "energie-thank-you-page"
+ },
+ {
+  "site": "typ-formulaires-form-typ-vehicules",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-voiture-professionnel-form",
+    "name": "wf-form-voiture-professionnel-form",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-vehicule",
+     "form-redirect",
+     "form-vehicule-typ-2"
+    ],
+    "excluded": false,
+    "n_fields": 29,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "question_2",
+     "question_3",
+     "question_4",
+     "reponse_1",
+     "reponse_1",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "mail",
+     "societe",
+     "code_postal",
+     "nom",
+     "prenom",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [
+   "wf-form-voiture-professionnel-form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "form-typ-vehicules"
+ },
+ {
+  "site": "typ-formulaires-panneaux-photovoltaiques",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Panneaux-photovolta-ques-sms",
+    "name": "wf-form-Panneaux-photovolta-ques-sms",
+    "classes": [
+     "form-11",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 22,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "user",
+     "gclid",
+     "question_1",
+     "question_2",
+     "question_3",
+     "question_4",
+     "reponse_1",
+     "reponse_1",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "panneaux-photovoltaïques"
+ },
+ {
+  "site": "typ-formulaires-panneaux-thank-you-page",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": null,
+    "name": "wf-form-panneaux-passer-a-l-energie",
+    "classes": [
+     "form-34",
+     "form-ass",
+     "form-redirect",
+     "width-panneaux"
+    ],
+    "excluded": false,
+    "n_fields": 29,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "msclkid",
+     "gclid",
+     "question_1",
+     "question_2",
+     "question_3",
+     "question_4",
+     "question_5",
+     "reponse_1",
+     "reponse_1",
+     "societe",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": true,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "panneaux-thank-you-page"
+ },
+ {
+  "site": "typ-formulaires-securite-thank-you-page",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-securite-ubepro-form",
+    "name": "wf-form-securite-ubepro-form",
+    "classes": [
+     "form-32",
+     "form-globale",
+     "form-vehicule",
+     "form-redirect",
+     "width-secu"
+    ],
+    "excluded": false,
+    "n_fields": 32,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "msclkid",
+     "gclid",
+     "question_1",
+     "question_2",
+     "question_3",
+     "question_4",
+     "reponse_lib_4_1",
+     "reponse_lib_4_2",
+     "reponse_lib_4_3",
+     "reponse_lib_4_4",
+     "reponse_lib_4_5",
+     "reponse_1",
+     "reponse_1",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4_1",
+     "reponse_4_2",
+     "reponse_4_3",
+     "reponse_4_4",
+     "reponse_4_5",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "securite-thank-you-page"
+ },
+ {
+  "site": "typ-formulaires-typ-caisses-enregistreuse",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Caisse-Form",
+    "name": "wf-form-Caisse-Form",
+    "classes": [
+     "form-35",
+     "form-redirect",
+     "width-caisse"
+    ],
+    "excluded": false,
+    "n_fields": 38,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "question_2",
+     "question_3",
+     "question_4",
+     "question_5",
+     "reponse_1",
+     "reponse_1",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "question_i",
+     "prenom",
+     "nom",
+     "question_i",
+     "mail",
+     "telephone",
+     "question_i",
+     "societe",
+     "code_postal",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Caisse-Form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "typ-caisses-enregistreuse"
+ },
+ {
+  "site": "typ-formulaires-typ-energie-form",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-energie-form",
+    "name": "wf-form-energie-form",
+    "classes": [
+     "form-33",
+     "form-globale",
+     "form-redirect",
+     "width-energie"
+    ],
+    "excluded": false,
+    "n_fields": 41,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "user",
+     "gclid",
+     "question_1",
+     "question_2",
+     "question_3",
+     "question_4",
+     "question_5",
+     "question_6",
+     "question_7",
+     "question_8",
+     "question_9",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_5",
+     "reponse_6",
+     "reponse_7",
+     "reponse_8",
+     "reponse_8",
+     "reponse_8",
+     "reponse_8",
+     "reponse_9",
+     "reponse_9",
+     "mail",
+     "societe",
+     "code_postal",
+     "nom",
+     "prenom",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [
+   "wf-form-energie-form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "typ-energie-form"
+ },
+ {
+  "site": "typ-formulaires-typ-log-entreprise",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Sage-Form-TRA",
+    "name": "wf-form-Sage-Form-TRA",
+    "classes": [
+     "form-36",
+     "form-redirect",
+     "width-sage"
+    ],
+    "excluded": false,
+    "n_fields": 7,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "user",
+     "question_1",
+     "reponse_1",
+     "checkbox"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "typ-log-entreprise"
+ },
+ {
+  "site": "typ-formulaires-typ-panneaux-form",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": null,
+    "name": "wf-form-panneaux-passer-a-l-energie",
+    "classes": [
+     "form-34",
+     "form-ass",
+     "form-redirect",
+     "width-panneaux"
+    ],
+    "excluded": false,
+    "n_fields": 34,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "msclkid",
+     "gclid",
+     "question_1",
+     "question_2",
+     "question_3",
+     "question_4",
+     "question_5",
+     "reponse_1",
+     "reponse_1",
+     "societe",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "mail",
+     "nom",
+     "prenom",
+     "code_postal",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [
+   "wf-form-panneaux-passer-a-l-energie"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "typ-panneaux-form"
+ },
+ {
+  "site": "typ-formulaires-typ-secu-form",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-securite-ubepro-form",
+    "name": "wf-form-securite-ubepro-form",
+    "classes": [
+     "form-32",
+     "form-globale",
+     "form-vehicule",
+     "form-redirect",
+     "width-secu"
+    ],
+    "excluded": false,
+    "n_fields": 44,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "msclkid",
+     "gclid",
+     "question_1",
+     "question_2",
+     "question_3",
+     "question_4",
+     "reponse_lib_4_1",
+     "reponse_lib_4_2",
+     "reponse_lib_4_3",
+     "reponse_lib_4_4",
+     "reponse_lib_4_5",
+     "reponse_1",
+     "reponse_1",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4_1",
+     "reponse_4_2",
+     "reponse_4_3",
+     "reponse_4_4",
+     "reponse_4_5",
+     "mail",
+     "nom",
+     "prenom",
+     "societe",
+     "code_postal",
+     "telephone",
+     "consentement",
+     "consentement",
+     "code_1",
+     "code_1",
+     "code_1",
+     "code_1",
+     "code_1",
+     "code_1"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [
+   "wf-form-securite-ubepro-form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": true,
+  "title": "typ-secu-form"
+ },
+ {
+  "site": "typ-formulaires-vehicules-thank-you-page",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-voiture-professionnel-form",
+    "name": "wf-form-voiture-professionnel-form",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-vehicule",
+     "form-redirect",
+     "form-vehicule-typ-2"
+    ],
+    "excluded": false,
+    "n_fields": 23,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "question_2",
+     "question_3",
+     "question_4",
+     "reponse_1",
+     "reponse_1",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "vehicules-thank-you-page"
+ },
+ {
+  "site": "typ-ticket-restaurant",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Caisse-Form",
+    "name": "wf-form-Caisse-Form",
+    "classes": [
+     "formulaire-etape"
+    ],
+    "excluded": false,
+    "n_fields": 21,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "reponse_1",
+     "reponse_1",
+     "question_i",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_4",
+     "question_i",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5",
+     "reponse_5"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "TYP-ticket restaurant"
+ },
+ {
+  "site": "une-rentree-sous-le-signe-du-pouvoir-d-achat",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-edenred_sous_la-rentree",
+    "name": "wf-form-edenred_sous_la-rentree",
+    "classes": [
+     "form-redirect",
+     "rentree-1"
+    ],
+    "excluded": false,
+    "n_fields": 15,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "reponse_1",
+     "mail",
+     "societe",
+     "code_postal",
+     "prenom",
+     "nom",
+     "telephone"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-edenred_sous_la-rentree"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Une rentrée sous le signe du pouvoir d'achat"
+ },
+ {
+  "site": "vehicules-de-societe-hd",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-voiture-professionnel-form",
+    "name": "wf-form-voiture-professionnel-form",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-vehicule",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 29,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "question_1",
+     "question_2",
+     "question_3",
+     "question_4",
+     "reponse_1",
+     "reponse_1",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "mail",
+     "societe",
+     "code_postal",
+     "nom",
+     "prenom",
+     "telephone",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [
+   "wf-form-voiture-professionnel-form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": true,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Véhicules professionnel"
+ },
+ {
+  "site": "vehicules-professionnel-v2",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-voiture-professionnel-form-sms",
+    "name": "wf-form-voiture-professionnel-form-sms",
+    "classes": [
+     "form-ass",
+     "form-globale",
+     "form-vehicule",
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 24,
+    "names": [
+     "source",
+     "categorie",
+     "coordonnee",
+     "user",
+     "question_1",
+     "question_2",
+     "question_3",
+     "question_4",
+     "reponse_1",
+     "reponse_1",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_2",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_3",
+     "reponse_4",
+     "reponse_4",
+     "reponse_4",
+     "consentement",
+     "consentement"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": false,
+    "has_identity": false,
+    "has_consent": true
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Véhicules professionnel"
+ },
+ {
+  "site": "voiture-nouveau-range-rover",
+  "categorie": "A_TEL",
+  "n_forms": 2,
+  "forms": [
+   {
+    "id": "wf-form-",
+    "name": "wf-form-",
+    "classes": [],
+    "excluded": false,
+    "n_fields": 14,
+    "names": [
+     "Motorisation-d-int-r-t",
+     "type-d-usage-2",
+     "M",
+     "M",
+     "prenom-2",
+     "nom-2",
+     "Email-2",
+     "telephone-2",
+     "Code-postal",
+     "source_page-2",
+     "Source_rub-2",
+     "email-2",
+     "sms-2",
+     "Appel-telephonique"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   },
+   {
+    "id": "wf-form-",
+    "name": "wf-form-",
+    "classes": [
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 14,
+    "names": [
+     "Motorisation-d-int-r-t",
+     "Type-d-usage",
+     "M",
+     "M",
+     "prenom",
+     "nom",
+     "Email",
+     "telephone",
+     "Code-postal",
+     "source_page",
+     "Source_rub",
+     "email",
+     "sms",
+     "Appel-telephonique"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-",
+   "wf-form-"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "Email",
+   "email"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Nouveau Range Rover"
+ },
+ {
+  "site": "voiture-range-rover",
+  "categorie": "A_TEL",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-",
+    "name": "wf-form-",
+    "classes": [
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 13,
+    "names": [
+     "Type-d-usage",
+     "M",
+     "M",
+     "prenom",
+     "Nom",
+     "Email",
+     "telephone",
+     "Code-postal",
+     "source_page",
+     "Source_rub",
+     "Email",
+     "SMS",
+     "Appel-telephonique"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "Email"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Range Rover"
+ },
+ {
+  "site": "volvo",
+  "categorie": "A_TEL",
+  "n_forms": 2,
+  "forms": [
+   {
+    "id": "wf-form-Volvo-Form",
+    "name": "wf-form-Volvo-Form",
+    "classes": [
+     "form-redirect"
+    ],
+    "excluded": false,
+    "n_fields": 6,
+    "names": [
+     "civilite",
+     "prenom",
+     "nom",
+     "mail",
+     "code_postal",
+     "telephone"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   },
+   {
+    "id": "wf-form-Volvo-Form",
+    "name": "wf-form-Volvo-Form",
+    "classes": [
+     "mobile-volvo"
+    ],
+    "excluded": false,
+    "n_fields": 6,
+    "names": [
+     "civilite",
+     "prenom",
+     "nom",
+     "mail",
+     "code_postal",
+     "telephone"
+    ],
+    "has_tel": true,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": true,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [
+   "wf-form-Volvo-Form",
+   "wf-form-Volvo-Form"
+  ],
+  "tel_fields": [
+   "telephone"
+  ],
+  "mail_fields": [
+   "mail"
+  ],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Volvo EX40 : L’électrique au prix de l’essence"
+ },
+ {
+  "site": "webflow-template-1",
+  "categorie": "C_QUALIF",
+  "n_forms": 1,
+  "forms": [
+   {
+    "id": "wf-form-Fea-Form",
+    "name": "wf-form-Fea-Form",
+    "classes": [
+     "form-22"
+    ],
+    "excluded": false,
+    "n_fields": 4,
+    "names": [
+     "name",
+     "field",
+     "email-4",
+     "field"
+    ],
+    "has_tel": false,
+    "tel_hidden_only": false,
+    "has_mail": true,
+    "has_identity": false,
+    "has_consent": false
+   }
+  ],
+  "lead_forms": [],
+  "tel_fields": [],
+  "mail_fields": [],
+  "has_consent": false,
+  "w_form_done": true,
+  "w_form_fail": true,
+  "gtm": [],
+  "lang": "en",
+  "h1": 0,
+  "legacy_sms_ui_static": false,
+  "title": "Template_1"
+ }
+]
