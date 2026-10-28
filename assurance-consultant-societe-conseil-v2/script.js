@@ -1,8 +1,12 @@
-/* [lp2site-doctor] garde formulaire v2 — 3 correctifs de robustesse :
+/* [lp2site-doctor] garde formulaire v3 — correctifs de robustesse :
    1. champs required caches : retires des que ils deviennent caches (Formly
       masque les etapes apres son init), sinon le bouton Valider reste bloque
    2. option exclusive (Non, merci / Aucun...) : decocher automatiquement l'exclusive
-   3. sans ?ltm_typ=, afficher un retour de succes au lieu de l'echec muet */
+   3. AUCUN message de succes automatique. La version 2 de ce garde affichait le
+      bloc de remerciement et un bandeau vert « Merci ! Vos réponses ont bien été
+      enregistrées. » tout seuls, 3,2 s apres l'ouverture de la page. La
+      confirmation est desormais pilotee par lead-handler.js et n'apparait
+      qu'apres une livraison reelle (CRM HelloLead ou Google Sheets). */
 (function () {
   function stripHiddenRequired() {
     document.querySelectorAll('form [required]').forEach(function (f) {
@@ -46,43 +50,24 @@
       excl.dispatchEvent(new Event('change', { bubbles: true }));
     }
   });
-  document.addEventListener('submit', function (e) {
-    if (!e.target || !e.target.classList || !e.target.classList.contains('form-redirect')) return;
-    swapFailIfNeeded();
-  }, true);
-  // Formly déclenche le submit via jQuery (invisible aux listeners natifs) :
-  // observer directement l'affichage du message d'échec
-  function swapFailIfNeeded() {
-    if (new URLSearchParams(window.location.search).get('ltm_typ')) return;
-    var fail = document.querySelector('.w-form-fail');
-    var done = document.querySelector('.w-form-done');
-    if (fail && fail.offsetParent !== null) fail.style.display = 'none';
-    if (done && done.offsetParent === null) { done.style.display = 'block'; return; }
-    if (!document.getElementById('lp2site-merci')) {
-      var d = document.createElement('div');
-      d.id = 'lp2site-merci';
-      d.style.cssText = 'position:fixed;inset:auto 0 0 0;z-index:9999;background:#0b7a5b;'
-        + 'color:#fff;padding:18px;text-align:center;font-family:sans-serif;font-size:17px';
-      d.textContent = 'Merci ! Vos réponses ont bien été enregistrées.';
-      document.body.appendChild(d);
-      setTimeout(function () { d.remove(); }, 9000);
-    }
+  // 3. Les blocs de succes Webflow restent masques tant qu'aucune livraison
+  //    reelle n'a eu lieu. lead-handler.js les marque `data-lp-confirme` au
+  //    moment ou il affiche la confirmation.
+  function masquerSucces() {
+    Array.prototype.forEach.call(document.querySelectorAll('.w-form-done'), function (el) {
+      if (!el.hasAttribute('data-lp-confirme') && el.style.display !== 'none') {
+        el.style.display = 'none';
+      }
+    });
   }
-  document.addEventListener('click', function (e) {
-    var t = e.target;
-    if (!t || !t.closest || !t.closest('[data-form="submit-btn"]')) return;
-    if (new URLSearchParams(window.location.search).get('ltm_typ')) return;
-    [3500, 4500, 6000].forEach(function (d) { setTimeout(swapFailIfNeeded, d); });
-  }, true);
-  var passes2 = [3200, 4000, 5000, 6500];
-  passes2.forEach(function (t) { setTimeout(swapFailIfNeeded, t); });
+  masquerSucces();
+  document.addEventListener('DOMContentLoaded', masquerSucces);
+  [400, 1200, 2500, 4000, 7000].forEach(function (t) { setTimeout(masquerSucces, t); });
   try {
     if (window.MutationObserver) {
-      var mo = new MutationObserver(function () { swapFailIfNeeded(); });
-      ['w-form-fail', 'w-form-done'].forEach(function (cls) {
-        document.querySelectorAll('.' + cls).forEach(function (el) {
-          mo.observe(el, { attributes: true, attributeFilter: ['style', 'class'] });
-        });
+      Array.prototype.forEach.call(document.querySelectorAll('.w-form-done'), function (el) {
+        new MutationObserver(masquerSucces)
+          .observe(el, { attributes: true, attributeFilter: ['style', 'class'] });
       });
     }
   } catch (e) {}

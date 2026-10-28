@@ -349,10 +349,25 @@
 
   function hideSuccess() {
     Array.prototype.forEach.call(document.querySelectorAll('.w-form-done'), function (el) {
+      el.removeAttribute('data-lp-confirme');
       el.style.display = 'none';
     });
     var own = document.getElementById('lp-merci');
     if (own) own.parentNode.removeChild(own);
+  }
+
+  // Certaines LP portent leur propre écran de confirmation (tunnel maison) :
+  // on l'active au lieu d'en fabriquer un autre, pour garder le design d'origine.
+  function customConfirmation(form) {
+    var done = form.querySelector('.step-done, [data-step="done"]');
+    if (!done) return null;
+    Array.prototype.forEach.call(form.querySelectorAll('.step'), function (step) {
+      if (step === done) return;
+      step.classList.remove('is-active');
+      step.style.display = 'none';
+    });
+    done.classList.add('is-active');
+    return done;
   }
 
   function showSuccess(form) {
@@ -368,14 +383,24 @@
         break;
       }
     }
-    form.style.display = 'none';
     if (done) {
+      // marqueur lu par le garde de script.js : seule une confirmation issue
+      // d'une livraison réelle peut rester visible
+      form.style.display = 'none';
+      done.setAttribute('data-lp-confirme', '1');
       done.style.display = 'block';
       return;
     }
+    var own = customConfirmation(form);
+    if (own) {
+      own.setAttribute('data-lp-confirme', '1');
+      return;
+    }
+    form.style.display = 'none';
     var div = document.createElement('div');
     div.id = 'lp-merci';
     div.className = 'w-form-done';
+    div.setAttribute('data-lp-confirme', '1');
     div.style.cssText = 'display:block;padding:18px;border-radius:8px;background:#e8f5e9;color:#1a7f37;font-size:16px;';
     div.setAttribute('role', 'status');
     div.textContent = CFG.merci || 'Merci, votre demande a bien été enregistrée. Un conseiller vous contacte rapidement.';
@@ -897,8 +922,20 @@
       // jQuery installé plus haut garantit déjà la capture.
     }
 
-    // 3. état initial : aucun faux message de réussite
+    // 3. état initial : aucun faux message de réussite, et garde permanente :
+    //    un bloc de succès ne peut être affiché que par notre propre confirmation
     hideSuccess();
+    if (window.MutationObserver) {
+      Array.prototype.forEach.call(document.querySelectorAll('.w-form-done'), function (el) {
+        try {
+          new MutationObserver(function () {
+            if (!el.hasAttribute('data-lp-confirme') && el.style.display !== 'none') {
+              el.style.display = 'none';
+            }
+          }).observe(el, { attributes: true, attributeFilter: ['style', 'class'] });
+        } catch (e) { /* ignore */ }
+      });
+    }
   }
 
   init();

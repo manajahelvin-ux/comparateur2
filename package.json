@@ -3,7 +3,9 @@
   "private": true,
   "description": "Banc de test jsdom + jQuery des formulaires de lead (outils internes, non déployé)",
   "scripts": {
-    "test": "node outils/test-formulaires.mjs"
+    "test": "node outils/test-formulaires.mjs",
+    "test:messages": "node outils/test-messages.mjs",
+    "test:all": "node outils/test-formulaires.mjs && node outils/test-messages.mjs"
   },
   "devDependencies": {
     "jquery": "3.7.1",

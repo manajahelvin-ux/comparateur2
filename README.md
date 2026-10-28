@@ -12,6 +12,7 @@ vérification du mobile par SMS.
 
 👉 **Documentation complète : [`RAPPORT-APPLICATION-MEMOIRE.md`](RAPPORT-APPLICATION-MEMOIRE.md)**
 👉 **Diagnostic initial du parc : [`AUDIT-LP.md`](AUDIT-LP.md)**
+👉 **Correctif remerciement automatique / bandeaux verts : [`RAPPORT-CORRECTION-MESSAGES.md`](RAPPORT-CORRECTION-MESSAGES.md)**
 
 ---
 
@@ -33,6 +34,9 @@ vérification du mobile par SMS.
 3. Le lead part **en parallèle** vers le CRM HelloLead et Google Sheets.
 4. La confirmation n'apparaît que si au moins une livraison a réussi ; sinon un
    message d'erreur clair reste affiché et le visiteur peut réessayer.
+   **Aucun message de succès n'est affiché à l'ouverture de la page** : le garde
+   `lp2site-doctor` de `script.js` masque tout bloc `.w-form-done` non confirmé
+   (marqueur `data-lp-confirme` posé uniquement par le gestionnaire après livraison).
 5. GTM reçoit `formulaire_lead` (ou `formulaire_micro_entrepreneur`) avec le
    tracking autorisé par le consentement.
 
@@ -54,7 +58,10 @@ python3 outils/audit.py             # audit du parc -> outils/audit-lp.json + AU
 python3 outils/appliquer.py         # applique/rafraîchit le standard (idempotent)
 python3 outils/appliquer.py --dry-run
 python3 outils/verifier.py          # conformité des 138 pages + syntaxe JS
-npm install && npm test             # banc jsdom + jQuery (79 formulaires)
+npm install                         # jsdom + jquery@3.7.1
+npm test                            # banc formulaires (79 sites)
+npm run test:messages               # banc messages de succès (138 pages)
+npm run test:all                    # les deux bancs
 ./outils/creer-zips.sh              # archives de livraison dans livrables/
 ```
 

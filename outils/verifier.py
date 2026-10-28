@@ -69,13 +69,40 @@ def check_site(row):
     if "Oops! Something went wrong" in html or "Thank you! Your submission" in html:
         problems.append("message Webflow anglais restant")
 
+    handler_present = "lead-handler.js" in html
+    sms_present = "verification-sms.js" in html
+
+    # --- messages de succès : jamais d'affichage automatique -------------------
+    script_path = os.path.join(ROOT, site, "script.js")
+    if os.path.exists(script_path):
+        script = open(script_path, encoding="utf-8", errors="replace").read()
+        if "passes2" in script or "swapFailIfNeeded" in script:
+            problems.append("script.js : affichage automatique du remerciement (swapFailIfNeeded/passes2)")
+        if "lp2site-merci" in script or "Vos réponses ont bien été enregistrées" in script:
+            problems.append("script.js : bandeau vert automatique encore présent")
+        if "garde formulaire v3" not in script:
+            problems.append("script.js : garde de messages non mis à jour")
+        if "masquerSucces" not in script:
+            problems.append("script.js : garde de masquage des succès absent")
+    if "lp2site-merci" in html:
+        problems.append("bandeau « lp2site-merci » présent dans la page")
+    # les blocs de succès ne doivent pas être visibles par défaut
+    for block in soup.select(".w-form-done"):
+        style = (block.get("style") or "").replace(" ", "").lower()
+        if "display:block" in style and "data-lp-confirme" not in block.attrs:
+            problems.append("bloc .w-form-done visible au chargement")
+            break
+    if handler_present:
+        handler = open(os.path.join(ROOT, site, "lead-handler.js"), encoding="utf-8",
+                       errors="replace").read()
+        if "data-lp-confirme" not in handler:
+            problems.append("lead-handler.js : confirmation non marquée (garde incompatible)")
+
     missing_assets = local_assets(soup, site)
     if missing_assets:
         problems.append("actifs manquants : " + ", ".join(missing_assets[:5]))
 
     categorie = row["categorie"]
-    handler_present = "lead-handler.js" in html
-    sms_present = "verification-sms.js" in html
     if categorie == "A_TEL":
         if not handler_present or not sms_present:
             problems.append("gestionnaires non branchés")
