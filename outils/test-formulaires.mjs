@@ -30,6 +30,20 @@ const sites = audit.filter(r => ['A_TEL', 'B_MAIL'].includes(r.categorie) && (!o
 let checks = 0;
 const failures = [];
 
+function confirmationVisible(window) {
+  // confirmation légitime : bloc Webflow, bandeau créé par le gestionnaire, ou
+  // écran de confirmation propre à la LP (tunnel maison, classe is-active)
+  const nodes = Array.from(window.document.querySelectorAll(
+    '.w-form-done, #lp-merci, .step-done.is-active, [data-step="done"].is-active'));
+  return nodes.filter(el => {
+    const style = el.getAttribute('style') || '';
+    if (/display\s*:\s*none/i.test(style)) return false;
+    if (el.id === 'lp-merci') return true;
+    if (el.classList.contains('is-active')) return true;
+    return /display\s*:\s*block/i.test(style);
+  });
+}
+
 function check(site, name, condition, detail) {
   checks += 1;
   if (!condition) {
@@ -278,9 +292,7 @@ async function runSite(site, categorie) {
     check(site, '5. sheets formId', sp.get('formId') === cfg.formId);
     check(site, '5. sheets telephone', sp.get('telephone') === '0612345678');
   }
-  check(site, '5. confirmation affichée',
-    Array.from(window.document.querySelectorAll('.w-form-done, #lp-merci'))
-      .some(el => el.style.display === 'block'));
+  check(site, '5. confirmation affichée', confirmationVisible(window).length > 0);
   check(site, '5. événement GTM',
     (window.dataLayer || []).some(e => e && (e.event === 'formulaire_lead' || e.event === 'formulaire_micro_entrepreneur')));
   const gtmEvent = (window.dataLayer || []).find(e => e && e.event);
@@ -303,8 +315,7 @@ async function runSite(site, categorie) {
   env2.setResponder(() => ({ status: 500, body: { status: 'error' } }));
   env2.$(env2.form).submit();
   await settle(10);
-  const done2 = Array.from(env2.window.document.querySelectorAll('.w-form-done, #lp-merci'))
-    .some(el => el.style.display === 'block');
+  const done2 = confirmationVisible(env2.window).length > 0;
   check(site, '8. pas de faux Merci quand tout échoue', done2 === false);
   check(site, '8. erreur visible', /n’a pas pu être transmise|n'a pas pu être transmise/.test(env2.form.parentNode.textContent + env2.form.textContent));
   check(site, '8. formulaire toujours visible', env2.form.style.display !== 'none');

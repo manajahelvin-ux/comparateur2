@@ -21,6 +21,18 @@ corrections appliquées et l'application du standard, page par page.
 
 ---
 
+## 1 bis. Correctif ultérieur — remerciement automatique
+
+Un défaut signalé après la première livraison est corrigé sur cette branche : le
+garde `lp2site-doctor` v2 de `script.js` affichait seul, 3,2 s après l'ouverture de
+chaque page, le bloc de remerciement ou un bandeau vert « Merci ! Vos réponses ont
+bien été enregistrées. ». Le garde est passé en v3 dans les 138 `script.js` :
+plus aucun affichage automatique, et tout bloc de succès non confirmé par une
+livraison réelle est masqué (`data-lp-confirme`). Détail et contrôles :
+[`RAPPORT-CORRECTION-MESSAGES.md`](RAPPORT-CORRECTION-MESSAGES.md).
+
+---
+
 ## 2. Diagnostic initial (état du dépôt avant intervention)
 
 Reconstitué depuis le commit `01d1187` par `outils/audit.py --git`
